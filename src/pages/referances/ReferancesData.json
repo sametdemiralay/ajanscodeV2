@@ -1,0 +1,380 @@
+{
+  "referances": [
+    {
+      "id": 1,
+      "image": "arbor"
+    },
+    {
+      "id": 2,
+      "image": "akrobat"
+    },
+    {
+      "id": 3,
+      "image": "gezer"
+    },
+    {
+      "id": 4,
+      "image": "efor"
+    },
+    {
+      "id": 5,
+      "image": "evset"
+    },
+    {
+      "id": 6,
+      "image": "frs-makina"
+    },
+    {
+      "id": 7,
+      "image": "furtex"
+    },
+    {
+      "id": 8,
+      "image": "metplas"
+    },
+    {
+      "id": 9,
+      "image": "mihrabat"
+    },
+    {
+      "id": 10,
+      "image": "pass"
+    },
+    {
+      "id": 11,
+      "image": "ribattel"
+    },
+    {
+      "id": 12,
+      "image": "yasin"
+    },
+    {
+      "id": 13,
+      "image": "yuzonbir"
+    },
+    {
+      "id": 14,
+      "image": "aktas"
+    },
+    {
+      "id": 15,
+      "image": "anadolu"
+    },
+    {
+      "id": 16,
+      "image": "sanko-makina"
+    },
+    {
+      "id": 17,
+      "image": "askan"
+    },
+    {
+      "id": 18,
+      "image": "ayhanilhan"
+    },
+    {
+      "id": 19,
+      "image": "banazli"
+    },
+    {
+      "id": 20,
+      "image": "bemteks"
+    },
+    {
+      "id": 21,
+      "image": "berk"
+    },
+    {
+      "id": 22,
+      "image": "besel"
+    },
+    {
+      "id": 23,
+      "image": "cleanplus"
+    },
+    {
+      "id": 24,
+      "image": "cokyasar"
+    },
+    {
+      "id": 25,
+      "image": "comfy"
+    },
+    {
+      "id": 26,
+      "image": "cokyasar2"
+    },
+    {
+      "id": 27,
+      "image": "demirli"
+    },
+    {
+      "id": 28,
+      "image": "demsas"
+    },
+    {
+      "id": 29,
+      "image": "dizayn"
+    },
+    {
+      "id": 30,
+      "image": "emex"
+    },
+    {
+      "id": 31,
+      "image": "erengroup"
+    },
+    {
+      "id": 32,
+      "image": "erturk"
+    },
+    {
+      "id": 33,
+      "image": "evgor"
+    },
+    {
+      "id": 34,
+      "image": "firatmetal"
+    },
+    {
+      "id": 35,
+      "image": "forteks"
+    },
+    {
+      "id": 36,
+      "image": "goldenmetal"
+    },
+    {
+      "id": 37,
+      "image": "gorselantik"
+    },
+    {
+      "id": 38,
+      "image": "gole-turizm"
+    },
+    {
+      "id": 39,
+      "image": "halle"
+    },
+    {
+      "id": 40,
+      "image": "hayaldunyasi"
+    },
+    {
+      "id": 41,
+      "image": "helen-yapi"
+    },
+    {
+      "id": 42,
+      "image": "ikiz-bakalit"
+    },
+    {
+      "id": 43,
+      "image": "joy-tekne"
+    },
+    {
+      "id": 44,
+      "image": "karam"
+    },
+    {
+      "id": 45,
+      "image": "karya"
+    },
+    {
+      "id": 46,
+      "image": "klas-elbise"
+    },
+    {
+      "id": 47,
+      "image": "kolturk-ofis"
+    },
+    {
+      "id": 48,
+      "image": "lamda"
+    },
+    {
+      "id": 49,
+      "image": "mef"
+    },
+    {
+      "id": 50,
+      "image": "merdiven"
+    },
+    {
+      "id": 51,
+      "image": "metax"
+    },
+    {
+      "id": 52,
+      "image": "metel"
+    },
+    {
+      "id": 53,
+      "image": "mozaist"
+    },
+    {
+      "id": 54,
+      "image": "ninety"
+    },
+    {
+      "id": 55,
+      "image": "orallar"
+    },
+    {
+      "id": 56,
+      "image": "ozyasar"
+    },
+    {
+      "id": 57,
+      "image": "qzen"
+    },
+    {
+      "id": 58,
+      "image": "rico"
+    },
+    {
+      "id": 59,
+      "image": "rubikap"
+    },
+    {
+      "id": 60,
+      "image": "rukiye-korkmaz"
+    },
+    {
+      "id": 61,
+      "image": "salcano"
+    },
+    {
+      "id": 62,
+      "image": "sembol-pak"
+    },
+    {
+      "id": 63,
+      "image": "sisli-belediye"
+    },
+    {
+      "id": 64,
+      "image": "simay-kimya"
+    },
+    {
+      "id": 65,
+      "image": "tekinis"
+    },
+    {
+      "id": 66,
+      "image": "termokap"
+    },
+    {
+      "id": 67,
+      "image": "tufan-group"
+    },
+    {
+      "id": 68,
+      "image": "tugra-tekstil"
+    },
+    {
+      "id": 69,
+      "image": "ulas-yapi"
+    },
+    {
+      "id": 70,
+      "image": "wekita"
+    },
+    {
+      "id": 71,
+      "image": "akbaba"
+    },
+    {
+      "id": 72,
+      "image": "adco-petrol"
+    },
+    {
+      "id": 73,
+      "image": "asteknik"
+    },
+    {
+      "id": 74,
+      "image": "atilim-aluminyum"
+    },
+    {
+      "id": 75,
+      "image": "by-papuc"
+    },
+    {
+      "id": 76,
+      "image": "castello-logo"
+    },
+    {
+      "id": 77,
+      "image": "celik-dekor"
+    },
+    {
+      "id": 78,
+      "image": "erenexpo"
+    },
+    {
+      "id": 79,
+      "image": "erse-teknoloji"
+    },
+    {
+      "id": 80,
+      "image": "etken-triko"
+    },
+    {
+      "id": 81,
+      "image": "exotic"
+    },
+    {
+      "id": 82,
+      "image": "gulal-hırdavat"
+    },
+    {
+      "id": 83,
+      "image": "haspas-tekstil"
+    },
+    {
+      "id": 84,
+      "image": "lotus-plastik"
+    },
+    {
+      "id": 85,
+      "image": "lubricant-world"
+    },
+    {
+      "id": 86,
+      "image": "miray-nakis-logo"
+    },
+    {
+      "id": 87,
+      "image": "nurmak-vida"
+    },
+    {
+      "id": 88,
+      "image": "oncu-grup"
+    },
+    {
+      "id": 89,
+      "image": "onestar"
+    },
+    {
+      "id": 90,
+      "image": "otello-tekstil"
+    },
+    {
+      "id": 91,
+      "image": "anas"
+    },
+    {
+      "id": 92,
+      "image": "sarmetal-logo"
+    },
+    {
+      "id": 93,
+      "image": "tiyatro-kılcık"
+    },
+    {
+      "id": 94,
+      "image": "yaprak-hortum"
+    }
+  ]
+}

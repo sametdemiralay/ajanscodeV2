@@ -1,0 +1,203 @@
+.navbarArea{
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  background: $light;
+  border-bottom: 3px solid darken($color:$lightHover, $amount: 20);
+}
+
+.navbarClose {
+  background: $light;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .dontLookBitch{
+    display: none;
+  }
+
+  div{
+    color: $blue;
+    p{
+      margin-bottom: 5px;
+      display: inline-flex;
+      font-size: 20px;
+      margin-left: 10px;
+
+      svg{
+        font-size: 18px;
+      }
+
+      span{
+        padding-left: 5px;
+      }
+    }
+  }
+
+  img{
+    width: 250px;
+  }
+
+  @include mobileScreen{
+    justify-content: space-around;
+    div{
+      width: 50%;
+      p{
+        font-size: 15px;
+        svg{
+          font-size: 15px;
+        }
+      }
+    }
+    img{
+      width: 200px;
+    }
+  }
+}
+
+.sidebarOpen {
+  background: $light;
+  width: 325px;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 90px;
+  left: 0;
+  transition: 350ms;
+  z-index: 10;
+  overflow-y: auto;
+
+  &__btn {
+    width: 100%;
+    border-top: 3px solid $blue;
+  }
+
+  &__item {
+    display: flex;
+    color: $blue;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    list-style: none;
+    height: 60px;
+    text-decoration: none;
+    font-size: 23px;
+
+    span {
+      margin-left: 16px;
+    }
+
+    &:hover {
+      background: $lightHover;
+      border-left: 7px solid $blue;
+      cursor: pointer;
+    }
+  }
+
+  &__subnav {
+    background: $lightHover;
+    height: 60px;
+    padding-left: 1rem;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: $darkHover;
+    font-size: 18px;
+    font-weight: 700;
+
+    span {
+      margin-left: 16px;
+    }
+
+    &:hover {
+      background: $darkHover;
+      cursor: pointer;
+      color: $white
+    }
+  }
+}
+.sidebarClose {
+  @extend .sidebarOpen;
+  left: -100%;
+}
+
+
+
+
+
+// menu
+$menu-icon-size: 25;
+$menu-icon-color: $blue;
+$menu-icon-speed: .10s;
+$menu-icon-width: $menu-icon-size;
+$menu-icon-height: floor((1/6)*$menu-icon-width);
+
+.menu-iconn {
+  display: inline-block;
+  position: relative;
+  // default padding, if statment will be here
+  //padding: (4/5)*$menu-icon-width + px (3/5)*$menu-icon-width + px;
+  padding:
+    (4/5)*$menu-icon-width + px
+    (3/5)*$menu-icon-width + px
+    (4/5)*$menu-icon-width + px
+    (16/5)*$menu-icon-width + px;
+  text-indent: -(13/5)*$menu-icon-width + px;
+  font-size: (4/5)*$menu-icon-size + px;
+  line-height: $menu-icon-height + px;
+  color: $menu-icon-color;
+  
+  border: 1px solid rgba($menu-icon-color, 0.3);
+  border-radius: 3px;
+  cursor: pointer;
+  user-select: none;
+  
+  i {
+    position: relative;
+    display: block;
+    width: $menu-icon-width + px;
+    height: $menu-icon-height + px;
+    background: $menu-icon-color;
+    border-radius: 5em;
+    font-weight: 600;
+    font-style: normal;
+    transition: background $menu-icon-speed;
+
+    &:after, &:before {
+      content: '';
+      display: block;
+      position: absolute;
+      z-index: 0;
+      height: $menu-icon-height + px;
+      width: $menu-icon-width + px;
+      background: $menu-icon-color;
+      border-radius: inherit;
+      transition: top $menu-icon-speed $menu-icon-speed*2 ease, transform $menu-icon-speed ease;
+    }
+    
+    &:before {
+      top: -($menu-icon-height*2) + px;
+    }
+    &:after {
+      top: ($menu-icon-height*2) + px;
+    }
+  }
+}
+
+.is-active {
+  i {
+    background: transparent;
+    &:before, &:after{
+      top:0;
+      transition: top $menu-icon-speed ease, transform $menu-icon-speed $menu-icon-speed*2 ease;
+      transform: rotate(45deg) translate(0);    
+    }
+    &:after{
+      transform: rotate(-45deg);
+    }
+  }
+}
+
+

@@ -1,0 +1,155 @@
+.btnGroupWrapper{
+  align-items: center;
+  background: $white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+  a{
+    color: $blue;
+    background: $lightHover;
+    font-size: 20px;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 15px 0;
+    border: 3px solid darken($color:$lightHover, $amount: 20);
+    margin: 10px 0;
+    text-decoration: none;
+  }
+  .active{
+    color: $white;
+    background: darken($color:$lightHover, $amount: 20);
+    border: 3px solid $blue;
+    transition: all .5s ease;
+    font-weight: 700;
+  }
+
+  @include mobileScreen{
+    a{
+      font-size: 15px;
+      margin: 5px 0;
+    }
+  }
+}
+
+
+.worksWrapper{
+  &--item{
+    position: relative;
+
+    div{
+      background: rgba(0,0,0,.9) !important;
+      z-index: 9999;
+      position: fixed !important;
+
+      svg{
+        &:nth-child(2){
+          font-size: 75px !important;
+          color: $white !important;
+          top: 15px !important;
+          right: 15px !important;
+        }
+      }
+
+      svg:nth-child(3),
+      svg:nth-child(4){
+        display: none !important;
+      }
+
+      div{
+        display: none;
+      }
+
+      iframe{
+        width: 50%;
+        height: 50%;
+      }
+    }
+    section{
+      border: 5px solid darken($color:$lightHover, $amount: 20);
+      margin-bottom: 15px;
+      background: darken($color:$lightHover, $amount: 20);
+      cursor: pointer;
+
+      main{
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        display: none;
+        align-items: center;
+        justify-content: center;
+  
+        svg{
+          width: 100%;
+      font-size: 50px;
+      color: $blue;
+        }
+      }
+
+      &:hover{
+        img{
+          opacity: .5;
+        }
+        main{
+          display: flex;
+        }
+      }
+    }
+  }
+
+  &--web{
+    border: 5px solid darken($color:$lightHover, $amount: 20);
+    margin-bottom: 15px;
+    background: $lightHover;
+
+    div{
+      background: $lightHover;
+      text-align: center;
+      padding: 7px 0;
+
+      h5{
+        color: $blue;
+        letter-spacing: 1px;
+      }
+    }
+    &:hover{
+      border-color: $blue;
+
+      div{
+        background: $blue;
+
+        h5{
+          color: $white;
+        }
+      }
+    }
+  }
+  .col-lg-4{
+    .detailImage{
+      width: 100%;
+      height: 300px;
+      @include mobileScreen{
+        height: 200px;
+      }
+    }
+  }
+  .col-lg-3{
+    .detailImage{
+      width: 100%;
+      height: 400px;
+      @include mobileScreen{
+        height: 250px;
+      }
+    }
+  }
+  .col-lg-2{
+    .detailImage{
+      width: 100%;
+      height: 150px;
+    }
+  }
+}

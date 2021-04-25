@@ -1,0 +1,58 @@
+{
+  "projectPages": [
+    {
+      "title": "Anasayfa",
+      "path": "/"
+    },
+    {
+      "title": "Kurumsal",
+      "path": "/kurumsal"
+    },
+    {
+      "title": "Referanslarımız",
+      "path": "/referanslar"
+    },
+    {
+      "title": "İşlerimiz",
+      "path": "/islerimiz",
+      "subNavv": [
+        {
+          "title": "Grafik Tasarım",
+          "path": "/islerimiz/grafik-tasarim"
+        },
+        {
+          "title": "Web Tasarım & Yazılım",
+          "path": "/islerimiz/web-yazilim"
+        },
+        {
+          "title": "Logo & Kurumsal Kimlik",
+          "path": "/islerimiz/logo"
+        },
+        {
+          "title": "Tanıtım Filmi",
+          "path": "/islerimiz/tanitim-filmi"
+        },
+        {
+          "title": "Sosyal Medya",
+          "path": "/islerimiz/sosyal-medya"
+        },
+        {
+          "title": "Fotoğraf Çekimlerimiz",
+          "path": "/islerimiz/fotograf"
+        },
+        {
+          "title": "3D Modelleme",
+          "path": "/islerimiz/modelleme"
+        },
+        {
+          "title": "3D Animasyon",
+          "path": "/islerimiz/animasyon"
+        }
+      ]
+    },
+    {
+      "title": "İletişim",
+      "path": "/iletisim"
+    }
+  ]
+}

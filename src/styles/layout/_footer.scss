@@ -1,0 +1,186 @@
+.footerSocialSec {
+  // align-items: center;
+  // justify-content: center;
+  // height: 13vh;
+  // display: flex;
+
+  .social-icons {
+    display: flex;
+    padding: 0;
+
+    li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+
+    span {
+      cursor: pointer;
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      line-height: 45px;
+      text-decoration: none;
+      text-align: center;
+      position: relative;
+      transition: 0.5s;
+      background: #5c5b5b;
+      transform-style: preserve-3d;
+
+      .front {
+        color: #fff;
+      }
+
+      &:hover {
+        transform: rotateX(-90deg);
+
+        .back {
+          backface-visibility: visible;
+        }
+      }
+    }
+
+    .facebook {
+      .front {
+        background: #4267b2;
+      }
+      .back {
+        background: #fff;
+      }
+    }
+    .youtube {
+      .front {
+        background: #f00;
+      }
+      .back {
+        background: #fff;
+      }
+    }
+    .instagram {
+      .front {
+        background: linear-gradient(
+          45deg,
+          #405de6,
+          #5851db,
+          #833ab4,
+          #c13584,
+          #e1306c,
+          #fd1d1d
+        );
+      }
+      .back {
+        background: #fff;
+      }
+    }
+    .linkedin {
+      .front {
+        background: #0e76a8;
+      }
+      .back {
+        background: #fff;
+      }
+    }
+
+    .front,
+    .back {
+      width: 40px;
+      height: 40px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translateZ(20px);
+      color: $blue;
+      font-size: 20px;
+    }
+
+    .back {
+      transform: rotateX(90deg) translateZ(20px);
+      backface-visibility: hidden;
+    }
+
+    @include mobileScreen{
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.footerArea {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background: $lightHover;
+  border-top: 5px solid darken($color:$lightHover, $amount: 20);
+
+  img {
+    width: 330px;
+  }
+
+  p{
+    margin-top: 5px;
+    font-weight: 600;
+  }
+
+  h5 {
+    margin-left: 20px;
+    color: $blue;
+    font-weight: 700;
+    font-size: 22px;
+    border-bottom: 1px solid $blue;
+    width: 90%;
+    padding-bottom: 3px;
+  }
+
+  ul {
+    padding: 10px 20px;
+
+    li {
+      margin-bottom: 7px;
+      color: $blue;
+
+      a {
+        text-decoration: none;
+        font-size: 17px;
+        font-weight: 600;
+        color: $blue;
+
+        &:hover{
+          text-decoration: underline;
+        }
+      }
+    }
+
+    @include smallScreen{
+      padding-right: 10px;
+    }
+  }
+
+  .allRights{
+    @include mobileScreen{
+      display: none;
+    }
+  }
+
+  .islerArea {
+    columns: 2;
+  }
+
+  .adresArea{
+    li{
+      font-size: 18px;
+    }
+
+    svg{
+      margin-right: 10px;
+      font-size: 18px;
+    }
+
+    @include smallScreen{
+      li{
+        font-size: 15px;
+      }
+      svg{
+        font-size: 15px;
+        margin-right: 5px;
+      }
+    }
+  }
+}

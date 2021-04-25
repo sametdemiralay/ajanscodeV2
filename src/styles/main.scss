@@ -1,0 +1,25 @@
+// import abstract
+@import "./abstracts/variables";
+@import "./abstracts/mixins";
+
+//import vendors
+@import "./vendors/bootstrap";
+
+// import base
+@import "./base/reset";
+@import "./base/base";
+
+// import layouts
+@import "./layout/navigation";
+@import "./layout/banner";
+@import "./layout/footer";
+
+// import components
+@import "./components/buttons";
+
+// import pages
+@import "./pages/home";
+@import "./pages/about";
+@import "./pages/referances";
+@import "./pages/works";
+@import "./pages/contact";

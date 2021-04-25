@@ -1,0 +1,1988 @@
+{
+  "buttonGroupp": [
+    {
+      "title": "Grafik Tasarım",
+      "path": "/islerimiz/grafik-tasarim",
+      "isActive": "grafik-tasarim"
+    },
+    {
+      "title": "Web Tasarım & Yazılım",
+      "path": "/islerimiz/web-yazilim",
+      "isActive": "web-yazilim"
+    },
+    {
+      "title": "Logo & Kurumsal Kimlik",
+      "path": "/islerimiz/logo",
+      "isActive": "logo"
+    },
+    {
+      "title": "Tanıtım Filmi",
+      "path": "/islerimiz/tanitim-filmi",
+      "isActive": "tanitim-filmi"
+    },
+    {
+      "title": "Sosyal Medya",
+      "path": "/islerimiz/sosyal-medya",
+      "isActive": "sosyal-medya"
+    },
+    {
+      "title": "Fotoğraf Çekimlerimiz",
+      "path": "/islerimiz/fotograf",
+      "isActive": "fotograf"
+    },
+    {
+      "title": "3D Modelleme",
+      "path": "/islerimiz/modelleme",
+      "isActive": "modelleme"
+    },
+    {
+      "title": "3D Animasyon",
+      "path": "/islerimiz/animasyon",
+      "isActive": "animasyon"
+    }
+  ],
+  "grafikTasarim": [
+    {
+      "id": "1",
+      "title": "graphic",
+      "image": "grafikTasarim/akbaba-hirdavat",
+      "size": "col-lg-3 col-md-4 col-sm-6",
+      "link": "grafikTasarim/akbaba-hirdavat",
+      "clickType": "photo"
+    },
+    {
+      "id": "2",
+      "title": "graphic",
+      "image": "grafikTasarim/anadolu-hirdavat",
+      "size": "col-lg-3 col-md-4 col-sm-6",
+      "link": "grafikTasarim/anadolu-hirdavat",
+      "clickType": "photo"
+    },
+    {
+      "id": "3",
+      "title": "graphic",
+      "image": "grafikTasarim/anas-metal",
+      "size": "col-lg-3 col-md-4 col-sm-6",
+      "link": "grafikTasarim/anas-metal",
+      "clickType": "photo"
+    },
+    {
+      "id": "4",
+      "title": "graphic",
+      "image": "grafikTasarim/frs-tools",
+      "size": "col-lg-3 col-md-4 col-sm-6",
+      "link": "grafikTasarim/frs-tools",
+      "clickType": "photo"
+    },
+    {
+      "id": "5",
+      "title": "graphic",
+      "image": "grafikTasarim/rico",
+      "size": "col-lg-3 col-md-4 col-sm-6",
+      "link": "grafikTasarim/rico",
+      "clickType": "photo"
+    },
+    {
+      "id": "6",
+      "title": "graphic",
+      "image": "grafikTasarim/rubikap",
+      "size": "col-lg-3 col-md-4 col-sm-6",
+      "link": "grafikTasarim/rubikap",
+      "clickType": "photo"
+    },
+    {
+      "id": "7",
+      "title": "graphic",
+      "image": "grafikTasarim/demsas",
+      "size": "col-lg-3 col-md-4 col-sm-6",
+      "link": "grafikTasarim/demsas",
+      "clickType": "photo"
+    },
+    {
+      "id": "8",
+      "title": "graphic",
+      "image": "grafikTasarim/ozyasar",
+      "size": "col-lg-3 col-md-4 col-sm-6",
+      "link": "grafikTasarim/ozyasar",
+      "clickType": "photo"
+    },
+    {
+      "id": "9",
+      "title": "graphic",
+      "image": "grafikTasarim/anas-metal2",
+      "size": "col-lg-3 col-md-4 col-sm-6",
+      "link": "grafikTasarim/anas-metal2",
+      "clickType": "photo"
+    },
+    {
+      "id": "10",
+      "title": "graphic",
+      "image": "grafikTasarim/demsas2",
+      "size": "col-lg-3 col-md-4 col-sm-6",
+      "link": "grafikTasarim/demsas2",
+      "clickType": "photo"
+    },
+    {
+      "id": "11",
+      "title": "graphic",
+      "image": "grafikTasarim/demsas3",
+      "size": "col-lg-3 col-md-4 col-sm-6",
+      "link": "grafikTasarim/demsas3",
+      "clickType": "photo"
+    },
+    {
+      "id": "12",
+      "title": "graphic",
+      "image": "grafikTasarim/helen-yapi",
+      "size": "col-lg-3 col-md-4 col-sm-6",
+      "link": "grafikTasarim/helen-yapi",
+      "clickType": "photo"
+    },
+    {
+      "id": "13",
+      "title": "graphic",
+      "image": "grafikTasarim/salcano",
+      "size": "col-lg-3 col-md-4 col-sm-6",
+      "link": "grafikTasarim/salcano",
+      "clickType": "photo"
+    },
+    {
+      "id": "14",
+      "title": "graphic",
+      "image": "grafikTasarim/ayhan-ilhan",
+      "size": "col-lg-3 col-md-4 col-sm-6",
+      "link": "grafikTasarim/ayhan-ilhan",
+      "clickType": "photo"
+    },
+    {
+      "id": "15",
+      "title": "graphic",
+      "image": "grafikTasarim/besel",
+      "size": "col-lg-3 col-md-4 col-sm-6",
+      "link": "grafikTasarim/besel",
+      "clickType": "photo"
+    },
+    {
+      "id": "16",
+      "title": "graphic",
+      "image": "grafikTasarim/sarayland",
+      "size": "col-lg-3 col-md-4 col-sm-6",
+      "link": "grafikTasarim/sarayland",
+      "clickType": "photo"
+    },
+    {
+      "id": "17",
+      "title": "graphic",
+      "image": "grafikTasarim/sarayland2",
+      "size": "col-lg-3 col-md-4 col-sm-6",
+      "link": "grafikTasarim/sarayland2",
+      "clickType": "photo"
+    },
+    {
+      "id": "18",
+      "title": "graphic",
+      "image": "grafikTasarim/yuzonbir",
+      "size": "col-lg-3 col-md-4 col-sm-6",
+      "link": "grafikTasarim/yuzonbir",
+      "clickType": "photo"
+    }
+  ],
+  "webYazilim": [
+    {
+      "id": "1",
+      "title": "erenraf.com.tr",
+      "image": "webTasarim/eren-raf",
+      "size": "col-lg-4 col-sm-12",
+      "link": "https://erenraf.com.tr/",
+      "clickType": "web"
+    },
+    {
+      "id": "2",
+      "title": "lubricant-world.com",
+      "image": "webTasarim/madeniyag",
+      "size": "col-lg-4 col-sm-12",
+      "link": "https://lubricant-world.com/en/",
+      "clickType": "web"
+    },
+    {
+      "id": "3",
+      "title": "eforoptik.com.tr",
+      "image": "webTasarim/eforoptik",
+      "size": "col-lg-4 col-sm-12",
+      "link": "https://www.eforoptik.com.tr/",
+      "clickType": "web"
+    },
+    {
+      "id": "4",
+      "title": "akbabahirdavat.com",
+      "image": "webTasarim/akbaba",
+      "size": "col-lg-4 col-sm-12",
+      "link": "https://akbabahirdavat.com/",
+      "clickType": "web"
+    },
+    {
+      "id": "5",
+      "title": "merdiven.store",
+      "image": "webTasarim/merdiven",
+      "size": "col-lg-4 col-sm-12",
+      "link": "https://merdiven.store/",
+      "clickType": "web"
+    },
+    {
+      "id": "6",
+      "title": "demirliyapi.com.tr",
+      "image": "webTasarim/demirliyapi",
+      "size": "col-lg-4 col-sm-12",
+      "link": "http://www.demirliyapi.com.tr/",
+      "clickType": "web"
+    },
+    {
+      "id": "7",
+      "title": "arbor.com.tr",
+      "image": "webTasarim/arbor",
+      "size": "col-lg-4 col-sm-12",
+      "link": "https://www.arbor.com.tr/",
+      "clickType": "web"
+    },
+    {
+      "id": "8",
+      "title": "tekinis.com",
+      "image": "webTasarim/tekinis",
+      "size": "col-lg-4 col-sm-12",
+      "link": "http://www.tekinis.com/",
+      "clickType": "web"
+    },
+    {
+      "id": "9",
+      "title": "termokap.com",
+      "image": "webTasarim/termokap",
+      "size": "col-lg-4 col-sm-12",
+      "link": "https://termokap.com/",
+      "clickType": "web"
+    },
+    {
+      "id": "10",
+      "title": "ninetyoptik.com",
+      "image": "webTasarim/ninety",
+      "size": "col-lg-4 col-sm-12",
+      "link": "https://www.ninetyoptik.com/",
+      "clickType": "web"
+    },
+    {
+      "id": "11",
+      "title": "mihrabatkorusu.com",
+      "image": "webTasarim/mihrabat",
+      "size": "col-lg-4 col-sm-12",
+      "link": "https://mihrabatkorusu.com/",
+      "clickType": "web"
+    },
+    {
+      "id": "12",
+      "title": "yasinyildizhirdavat.com",
+      "image": "webTasarim/yasinyildiz",
+      "size": "col-lg-4 col-sm-12",
+      "link": "https://www.yasinyildizhirdavat.com/",
+      "clickType": "web"
+    },
+    {
+      "id": "13",
+      "title": "rico.com.tr",
+      "image": "webTasarim/rico",
+      "size": "col-lg-4 col-sm-12",
+      "link": "https://rico.com.tr/",
+      "clickType": "web"
+    },
+    {
+      "id": "14",
+      "title": "exoticlamp.com",
+      "image": "webTasarim/exotic",
+      "size": "col-lg-4 col-sm-12",
+      "link": "http://www.exoticlamp.com/",
+      "clickType": "web"
+    },
+    {
+      "id": "15",
+      "title": "joytekneturu.com",
+      "image": "webTasarim/joytekne",
+      "size": "col-lg-4 col-sm-12",
+      "link": "https://joytekneturu.com/",
+      "clickType": "web"
+    },
+    {
+      "id": "16",
+      "title": "ulas.com.tr",
+      "image": "webTasarim/ulas",
+      "size": "col-lg-4 col-sm-12",
+      "link": "https://ulas.com.tr/",
+      "clickType": "web"
+    },
+    {
+      "id": "17",
+      "title": "fortekstekstil.com.tr",
+      "image": "webTasarim/forteks",
+      "size": "col-lg-4 col-sm-12",
+      "link": "http://www.fortekstekstil.com.tr/",
+      "clickType": "web"
+    },
+    {
+      "id": "18",
+      "title": "bemteks.com",
+      "image": "webTasarim/bemteks",
+      "size": "col-lg-4 col-sm-12",
+      "link": "http://bemteks.com/",
+      "clickType": "web"
+    },
+    {
+      "id": "19",
+      "title": "dizayntools.com",
+      "image": "webTasarim/dizayn",
+      "size": "col-lg-4 col-sm-12",
+      "link": "https://dizayntools.com/",
+      "clickType": "web"
+    },
+    {
+      "id": "20",
+      "title": "emexsafety.com",
+      "image": "webTasarim/emex",
+      "size": "col-lg-4 col-sm-12",
+      "link": "https://emexsafety.com/",
+      "clickType": "web"
+    },
+    {
+      "id": "21",
+      "title": "anasmetal.com",
+      "image": "webTasarim/anas",
+      "size": "col-lg-4 col-sm-12",
+      "link": "https://www.anasmetal.com/",
+      "clickType": "web"
+    },
+    {
+      "id": "22",
+      "title": "beselmadeni.com.tr",
+      "image": "webTasarim/besel",
+      "size": "col-lg-4 col-sm-12",
+      "link": "https://beselmadeni.com.tr/",
+      "clickType": "web"
+    },
+    {
+      "id": "23",
+      "title": "gorselantik.com",
+      "image": "webTasarim/gorselantik",
+      "size": "col-lg-4 col-sm-12",
+      "link": "https://www.gorselantik.com/anasayfa",
+      "clickType": "web"
+    },
+    {
+      "id": "25",
+      "title": "celikdekor.com.tr",
+      "image": "webTasarim/celikdekor",
+      "size": "col-lg-4 col-sm-12",
+      "link": "https://www.celikdekor.com.tr/",
+      "clickType": "web"
+    },
+    {
+      "id": "26",
+      "title": "comfy.com.tr",
+      "image": "webTasarim/comfy",
+      "size": "col-lg-4 col-sm-12",
+      "link": "http://comfy.com.tr/",
+      "clickType": "web"
+    },
+    {
+      "id": "27",
+      "title": "firatmetalform.com",
+      "image": "webTasarim/firat",
+      "size": "col-lg-4 col-sm-12",
+      "link": "http://firatmetalform.com/",
+      "clickType": "web"
+    },
+    {
+      "id": "28",
+      "title": "frsmakina.com",
+      "image": "webTasarim/frs",
+      "size": "col-lg-4 col-sm-12",
+      "link": "http://www.frsmakina.com/elaletleri/",
+      "clickType": "web"
+    },
+    {
+      "id": "29",
+      "title": "halleaksesuar.com",
+      "image": "webTasarim/halle",
+      "size": "col-lg-4 col-sm-12",
+      "link": "http://halleaksesuar.com/",
+      "clickType": "web"
+    },
+    {
+      "id": "30",
+      "title": "goletur.com",
+      "image": "webTasarim/gole",
+      "size": "col-lg-4 col-sm-12",
+      "link": "http://www.goletur.com/",
+      "clickType": "web"
+    },
+    {
+      "id": "31",
+      "title": "lamdaheating.com",
+      "image": "webTasarim/lamda",
+      "size": "col-lg-4 col-sm-12",
+      "link": "http://lamdaheating.com/home",
+      "clickType": "web"
+    },
+    {
+      "id": "32",
+      "title": "mefteknik.com.tr",
+      "image": "webTasarim/mef",
+      "size": "col-lg-4 col-sm-12",
+      "link": "http://mefteknik.com.tr/",
+      "clickType": "web"
+    },
+    {
+      "id": "33",
+      "title": "sembolpak.com",
+      "image": "webTasarim/sembolpak",
+      "size": "col-lg-4 col-sm-12",
+      "link": "https://sembolpak.com/",
+      "clickType": "web"
+    },
+    {
+      "id": "34",
+      "title": "tugrateks.com.tr",
+      "image": "webTasarim/tugra",
+      "size": "col-lg-4 col-sm-12",
+      "link": "http://www.tugrateks.com.tr/",
+      "clickType": "web"
+    },
+    {
+      "id": "35",
+      "title": "ulusoyyemek.com.tr",
+      "image": "webTasarim/ulusoy",
+      "size": "col-lg-4 col-sm-12",
+      "link": "https://www.ulusoyyemek.com.tr/",
+      "clickType": "web"
+    },
+    {
+      "id": "36",
+      "title": "berkotoservis.com",
+      "image": "webTasarim/berk",
+      "size": "col-lg-4 col-sm-12",
+      "link": "https://berkotoservis.com/",
+      "clickType": "web"
+    },
+    {
+      "id": "37",
+      "title": "superel.com.tr",
+      "image": "webTasarim/super-el",
+      "size": "col-lg-4 col-sm-12",
+      "link": "https://superel.com.tr/",
+      "clickType": "web"
+    },
+    {
+      "id": "38",
+      "title": "merdivenci.net",
+      "image": "webTasarim/merdivenci",
+      "size": "col-lg-4 col-sm-12",
+      "link": "https://merdivenci.net/",
+      "clickType": "web"
+    },
+    {
+      "id": "39",
+      "title": "111merdiven.com",
+      "image": "webTasarim/onbirmerdiven",
+      "size": "col-lg-4 col-sm-12",
+      "link": "http://111merdiven.com/",
+      "clickType": "web"
+    },
+    {
+      "id": "40",
+      "title": "aktasinsaat.com",
+      "image": "webTasarim/aktas",
+      "size": "col-lg-4 col-sm-12",
+      "link": "http://www.aktasinsaat.com/",
+      "clickType": "web"
+    },
+    {
+      "id": "41",
+      "title": "ayhanilhan.com",
+      "image": "webTasarim/ayhan-ilhan",
+      "size": "col-lg-4 col-sm-12",
+      "link": "https://ayhanilhan.com/",
+      "clickType": "web"
+    },
+    {
+      "id": "42",
+      "title": "orallarpazarlama.com",
+      "image": "webTasarim/orallar",
+      "size": "col-lg-4 col-sm-12",
+      "link": "http://www.orallarpazarlama.com/",
+      "clickType": "web"
+    },
+    {
+      "id": "43",
+      "title": "pass.com.tr",
+      "image": "webTasarim/pass",
+      "size": "col-lg-4 col-sm-12",
+      "link": "http://pass.com.tr/p/",
+      "clickType": "web"
+    },
+    {
+      "id": "44",
+      "title": "wekita.org",
+      "image": "webTasarim/wekitaorg",
+      "size": "col-lg-4 col-sm-12",
+      "link": "https://wekita.org/",
+      "clickType": "web"
+    },
+    {
+      "id": "45",
+      "title": "hasatticaret.com.tr",
+      "image": "webTasarim/hasat",
+      "size": "col-lg-4 col-sm-12",
+      "link": "http://www.hasatticaret.com.tr/",
+      "clickType": "web"
+    },
+    {
+      "id": "46",
+      "title": "selectron.com.tr",
+      "image": "webTasarim/selectron",
+      "size": "col-lg-4 col-sm-12",
+      "link": "https://www.selectron.com.tr/",
+      "clickType": "web"
+    },
+    {
+      "id": "47",
+      "title": "rubygroup.com",
+      "image": "webTasarim/ruby-group",
+      "size": "col-lg-4 col-sm-12",
+      "link": "http://www.rubygroup.com/",
+      "clickType": "web"
+    },
+    {
+      "id": "48",
+      "title": "mozaist.com",
+      "image": "webTasarim/mozaist",
+      "size": "col-lg-4 col-sm-12",
+      "link": "https://mozaist.com/",
+      "clickType": "web"
+    },
+    {
+      "id": "49",
+      "title": "kozwin.com",
+      "image": "webTasarim/kozwin",
+      "size": "col-lg-4 col-sm-12",
+      "link": "http://kozwin.com/",
+      "clickType": "web"
+    },
+    {
+      "id": "50",
+      "title": "helenyapi.com",
+      "image": "webTasarim/helen",
+      "size": "col-lg-4 col-sm-12",
+      "link": "https://helenyapi.com/",
+      "clickType": "web"
+    },
+    {
+      "id": "51",
+      "title": "gulsaaluminyum.com",
+      "image": "webTasarim/gulsa",
+      "size": "col-lg-4 col-sm-12",
+      "link": "https://www.gulsaaluminyum.com/",
+      "clickType": "web"
+    },
+    {
+      "id": "52",
+      "title": "enderuntekstil.com",
+      "image": "webTasarim/enderun",
+      "size": "col-lg-4 col-sm-12",
+      "link": "http://enderuntekstil.com/",
+      "clickType": "web"
+    },
+    {
+      "id": "53",
+      "title": "boratastur.com",
+      "image": "webTasarim/boratastur",
+      "size": "col-lg-4 col-sm-12",
+      "link": "https://www.boratastur.com/",
+      "clickType": "web"
+    },
+    {
+      "id": "54",
+      "title": "atilimaluminyum.com",
+      "image": "webTasarim/atilim",
+      "size": "col-lg-4 col-sm-12",
+      "link": "https://www.atilimaluminyum.com/",
+      "clickType": "web"
+    },
+    {
+      "id": "55",
+      "title": "akrobatmerdiven.com",
+      "image": "webTasarim/akrobat-merdiven",
+      "size": "col-lg-4 col-sm-12",
+      "link": "https://akrobatmerdiven.com/",
+      "clickType": "web"
+    }
+  ],
+  "logo": [
+    {
+      "id": "1",
+      "title": "logo",
+      "image": "logoKurumsal/banazli",
+      "size": "col-lg-2 col-sm-6",
+      "link": "logoKurumsal/banazli",
+      "clickType": "photo"
+    },
+    {
+      "id": "2",
+      "title": "logo",
+      "image": "logoKurumsal/bemteks",
+      "size": "col-lg-2 col-sm-6",
+      "link": "logoKurumsal/bemteks",
+      "clickType": "photo"
+    },
+    {
+      "id": "3",
+      "title": "logo",
+      "image": "logoKurumsal/berk",
+      "size": "col-lg-2 col-sm-6",
+      "link": "logoKurumsal/berk",
+      "clickType": "photo"
+    },
+    {
+      "id": "4",
+      "title": "logo",
+      "image": "logoKurumsal/evset",
+      "size": "col-lg-2 col-sm-6",
+      "link": "logoKurumsal/evset",
+      "clickType": "photo"
+    },
+    {
+      "id": "5",
+      "title": "logo",
+      "image": "logoKurumsal/emex",
+      "size": "col-lg-2 col-sm-6",
+      "link": "logoKurumsal/emex",
+      "clickType": "photo"
+    },
+    {
+      "id": "6",
+      "title": "logo",
+      "image": "logoKurumsal/firatmetal",
+      "size": "col-lg-2 col-sm-6",
+      "link": "logoKurumsal/firatmetal",
+      "clickType": "photo"
+    },
+    {
+      "id": "7",
+      "title": "logo",
+      "image": "logoKurumsal/frs-makina",
+      "size": "col-lg-2 col-sm-6",
+      "link": "logoKurumsal/frs-makina",
+      "clickType": "photo"
+    },
+    {
+      "id": "8",
+      "title": "logo",
+      "image": "logoKurumsal/furtex",
+      "size": "col-lg-2 col-sm-6",
+      "link": "logoKurumsal/furtex",
+      "clickType": "photo"
+    },
+    {
+      "id": "9",
+      "title": "logo",
+      "image": "logoKurumsal/gorselantik",
+      "size": "col-lg-2 col-sm-6",
+      "link": "logoKurumsal/gorselantik",
+      "clickType": "photo"
+    },
+    {
+      "id": "10",
+      "title": "logo",
+      "image": "logoKurumsal/ikiz-bakalit",
+      "size": "col-lg-2 col-sm-6",
+      "link": "logoKurumsal/ikiz-bakalit",
+      "clickType": "photo"
+    },
+    {
+      "id": "11",
+      "title": "logo",
+      "image": "logoKurumsal/lamda",
+      "size": "col-lg-2 col-sm-6",
+      "link": "logoKurumsal/lamda",
+      "clickType": "photo"
+    },
+    {
+      "id": "12",
+      "title": "logo",
+      "image": "logoKurumsal/merdiven",
+      "size": "col-lg-2 col-sm-6",
+      "link": "logoKurumsal/merdiven",
+      "clickType": "photo"
+    },
+    {
+      "id": "13",
+      "title": "logo",
+      "image": "logoKurumsal/mihrabat",
+      "size": "col-lg-2 col-sm-6",
+      "link": "logoKurumsal/mihrabat",
+      "clickType": "photo"
+    },
+    {
+      "id": "14",
+      "title": "logo",
+      "image": "logoKurumsal/mozaist",
+      "size": "col-lg-2 col-sm-6",
+      "link": "logoKurumsal/mozaist",
+      "clickType": "photo"
+    },
+    {
+      "id": "15",
+      "title": "logo",
+      "image": "logoKurumsal/rukiye-korkmaz",
+      "size": "col-lg-2 col-sm-6",
+      "link": "logoKurumsal/rukiye-korkmaz",
+      "clickType": "photo"
+    },
+    {
+      "id": "16",
+      "title": "logo",
+      "image": "logoKurumsal/sembol-pak",
+      "size": "col-lg-2 col-sm-6",
+      "link": "logoKurumsal/sembol-pak",
+      "clickType": "photo"
+    },
+    {
+      "id": "17",
+      "title": "logo",
+      "image": "logoKurumsal/termokap",
+      "size": "col-lg-2 col-sm-6",
+      "link": "logoKurumsal/termokap",
+      "clickType": "photo"
+    },
+    {
+      "id": "18",
+      "title": "logo",
+      "image": "logoKurumsal/tugra-tekstil",
+      "size": "col-lg-2 col-sm-6",
+      "link": "logoKurumsal/tugra-tekstil",
+      "clickType": "photo"
+    },
+    {
+      "id": "19",
+      "title": "logo",
+      "image": "logoKurumsal/yasin",
+      "size": "col-lg-2 col-sm-6",
+      "link": "logoKurumsal/yasin",
+      "clickType": "photo"
+    },
+    {
+      "id": "20",
+      "title": "logo",
+      "image": "logoKurumsal/yuzonbir",
+      "size": "col-lg-2 col-sm-6",
+      "link": "logoKurumsal/yuzonbir",
+      "clickType": "photo"
+    },
+    {
+      "id": "21",
+      "title": "logo",
+      "image": "logoKurumsal/anadolu",
+      "size": "col-lg-2 col-sm-6",
+      "link": "logoKurumsal/anadolu",
+      "clickType": "photo"
+    },
+    {
+      "id": "22",
+      "title": "logo",
+      "image": "logoKurumsal/ayhanilhan",
+      "size": "col-lg-2 col-sm-6",
+      "link": "logoKurumsal/ayhanilhan",
+      "clickType": "photo"
+    },
+    {
+      "id": "23",
+      "title": "logo",
+      "image": "logoKurumsal/eren-expo",
+      "size": "col-lg-2 col-sm-6",
+      "link": "logoKurumsal/eren-expo",
+      "clickType": "photo"
+    },
+    {
+      "id": "24",
+      "title": "logo",
+      "image": "logoKurumsal/enderun",
+      "size": "col-lg-2 col-sm-6",
+      "link": "logoKurumsal/enderun",
+      "clickType": "photo"
+    },
+    {
+      "id": "25",
+      "title": "logo",
+      "image": "logoKurumsal/dizayn",
+      "size": "col-lg-2 col-sm-6",
+      "link": "logoKurumsal/dizayn",
+      "clickType": "photo"
+    },
+    {
+      "id": "26",
+      "title": "logo",
+      "image": "logoKurumsal/crow",
+      "size": "col-lg-2 col-sm-6",
+      "link": "logoKurumsal/crow",
+      "clickType": "photo"
+    },
+    {
+      "id": "27",
+      "title": "logo",
+      "image": "logoKurumsal/bifar",
+      "size": "col-lg-2 col-sm-6",
+      "link": "logoKurumsal/bifar",
+      "clickType": "photo"
+    },
+    {
+      "id": "28",
+      "title": "logo",
+      "image": "logoKurumsal/evset2",
+      "size": "col-lg-2 col-sm-6",
+      "link": "logoKurumsal/evset2",
+      "clickType": "photo"
+    },
+    {
+      "id": "29",
+      "title": "logo",
+      "image": "logoKurumsal/fineastra",
+      "size": "col-lg-2 col-sm-6",
+      "link": "logoKurumsal/fineastra",
+      "clickType": "photo"
+    },
+    {
+      "id": "30",
+      "title": "logo",
+      "image": "logoKurumsal/girisim",
+      "size": "col-lg-2 col-sm-6",
+      "link": "logoKurumsal/girisim",
+      "clickType": "photo"
+    },
+    {
+      "id": "31",
+      "title": "logo",
+      "image": "logoKurumsal/kozwin",
+      "size": "col-lg-2 col-sm-6",
+      "link": "logoKurumsal/kozwin",
+      "clickType": "photo"
+    },
+    {
+      "id": "32",
+      "title": "logo",
+      "image": "logoKurumsal/madeni-yag",
+      "size": "col-lg-2 col-sm-6",
+      "link": "logoKurumsal/madeni-yag",
+      "clickType": "photo"
+    },
+    {
+      "id": "33",
+      "title": "logo",
+      "image": "logoKurumsal/qzen",
+      "size": "col-lg-2 col-sm-6",
+      "link": "logoKurumsal/qzen",
+      "clickType": "photo"
+    },
+    {
+      "id": "34",
+      "title": "logo",
+      "image": "logoKurumsal/sarmetal",
+      "size": "col-lg-2 col-sm-6",
+      "link": "logoKurumsal/sarmetal",
+      "clickType": "photo"
+    },
+    {
+      "id": "35",
+      "title": "logo",
+      "image": "logoKurumsal/turko",
+      "size": "col-lg-2 col-sm-6",
+      "link": "logoKurumsal/turko",
+      "clickType": "photo"
+    },
+    {
+      "id": "36",
+      "title": "logo",
+      "image": "logoKurumsal/yarici-tel",
+      "size": "col-lg-2 col-sm-6",
+      "link": "logoKurumsal/yarici-tel",
+      "clickType": "photo"
+    },
+    {
+      "id": "37",
+      "title": "logo",
+      "image": "logoKurumsal/kolturk-ofis",
+      "size": "col-lg-2 col-sm-6",
+      "link": "logoKurumsal/kolturk-ofis",
+      "clickType": "photo"
+    },
+    {
+      "id": "38",
+      "title": "logo",
+      "image": "logoKurumsal/joy-tekne",
+      "size": "col-lg-2 col-sm-6",
+      "link": "logoKurumsal/joy-tekne",
+      "clickType": "photo"
+    },
+    {
+      "id": "39",
+      "title": "logo",
+      "image": "logoKurumsal/atilim-aluminyum",
+      "size": "col-lg-2 col-sm-6",
+      "link": "logoKurumsal/atilim-aluminyum",
+      "clickType": "photo"
+    },
+    {
+      "id": "40",
+      "title": "logo",
+      "image": "logoKurumsal/onestar",
+      "size": "col-lg-2 col-sm-6",
+      "link": "logoKurumsal/onestar",
+      "clickType": "photo"
+    }
+  ],
+  "tanitimFilmi": [
+    {
+      "id": "1",
+      "title": "trailer",
+      "image": "tanitimFilmi/arbor",
+      "size": "col-lg-4 col-sm-6",
+      "link": "https://www.youtube.com/embed/z6pnwqxfCjI",
+      "clickType": "video"
+    },
+    {
+      "id": "2",
+      "title": "trailer",
+      "image": "tanitimFilmi/rico",
+      "size": "col-lg-4 col-sm-6",
+      "link": "https://www.youtube.com/embed/3hiyFT_M-Xw",
+      "clickType": "video"
+    },
+    {
+      "id": "3",
+      "title": "trailer",
+      "image": "tanitimFilmi/frs",
+      "size": "col-lg-4 col-sm-6",
+      "link": "https://www.youtube.com/embed/bTk8Cxb1vFA",
+      "clickType": "video"
+    },
+    {
+      "id": "4",
+      "title": "trailer",
+      "image": "tanitimFilmi/frs",
+      "size": "col-lg-4 col-sm-6",
+      "link": "https://www.youtube.com/embed/bYnA8_Z62hM",
+      "clickType": "video"
+    },
+    {
+      "id": "5",
+      "title": "trailer",
+      "image": "tanitimFilmi/frs-makina-hirdavat",
+      "size": "col-lg-4 col-sm-6",
+      "link": "https://www.youtube.com/embed/CCFBpKFp1K0",
+      "clickType": "video"
+    },
+    {
+      "id": "6",
+      "title": "trailer",
+      "image": "tanitimFilmi/besel-madeni-esya",
+      "size": "col-lg-4 col-sm-6",
+      "link": "https://www.youtube.com/embed/f9rL2EHVrwM",
+      "clickType": "video"
+    },
+    {
+      "id": "7",
+      "title": "trailer",
+      "image": "tanitimFilmi/eren-grup-depo-raf",
+      "size": "col-lg-4 col-sm-6",
+      "link": "https://www.youtube.com/embed/NARSHtjqCIg",
+      "clickType": "video"
+    },
+    {
+      "id": "8",
+      "title": "trailer",
+      "image": "tanitimFilmi/selectron",
+      "size": "col-lg-4 col-sm-6",
+      "link": "https://www.youtube.com/embed/10ysp8_J50A",
+      "clickType": "video"
+    },
+    {
+      "id": "9",
+      "title": "trailer",
+      "image": "tanitimFilmi/rico-professional",
+      "size": "col-lg-4 col-sm-6",
+      "link": "https://www.youtube.com/embed/lhAArW89-U4",
+      "clickType": "video"
+    },
+    {
+      "id": "10",
+      "title": "trailer",
+      "image": "tanitimFilmi/arbor3",
+      "size": "col-lg-4 col-sm-6",
+      "link": "https://www.youtube.com/embed/tgND_eion2Q",
+      "clickType": "video"
+    },
+    {
+      "id": "11",
+      "title": "trailer",
+      "image": "tanitimFilmi/rubikap-espresso-cup",
+      "size": "col-lg-4 col-sm-6",
+      "link": "https://www.youtube.com/embed/FCSSjz3AmJ4",
+      "clickType": "video"
+    },
+    {
+      "id": "12",
+      "title": "trailer",
+      "image": "tanitimFilmi/rubikap",
+      "size": "col-lg-4 col-sm-6",
+      "link": "https://www.youtube.com/embed/JkimS0dGW4I",
+      "clickType": "video"
+    },
+    {
+      "id": "13",
+      "title": "trailer",
+      "image": "tanitimFilmi/emex-safety-footwear",
+      "size": "col-lg-4 col-sm-6",
+      "link": "https://www.youtube.com/embed/qJRGJ_I-WfE",
+      "clickType": "video"
+    },
+    {
+      "id": "14",
+      "title": "trailer",
+      "image": "tanitimFilmi/arbor2",
+      "size": "col-lg-4 col-sm-6",
+      "link": "https://www.youtube.com/embed/HKPTeu2Qc2E",
+      "clickType": "video"
+    },
+    {
+      "id": "15",
+      "title": "trailer",
+      "image": "tanitimFilmi/atilim-aliminyum",
+      "size": "col-lg-4 col-sm-6",
+      "link": "https://www.youtube.com/embed/fiZBVPaJmGE",
+      "clickType": "video"
+    },
+    {
+      "id": "16",
+      "title": "trailer",
+      "image": "tanitimFilmi/sar-metal",
+      "size": "col-lg-4 col-sm-6",
+      "link": "https://www.youtube.com/embed/c5jDzW6q_qg",
+      "clickType": "video"
+    }
+  ],
+  "sosyalMedya": [
+    {
+      "id": "1",
+      "title": "social",
+      "image": "sosyalMedya/foto-1",
+      "size": "col-lg-3 col-md-4 col-sm-6",
+      "link": "sosyalMedya/foto-1",
+      "clickType": "photo"
+    },
+    {
+      "id": "2",
+      "title": "social",
+      "image": "sosyalMedya/foto-2",
+      "size": "col-lg-3 col-md-4 col-sm-6",
+      "link": "sosyalMedya/foto-2",
+      "clickType": "photo"
+    },
+    {
+      "id": "3",
+      "title": "social",
+      "image": "sosyalMedya/foto-3",
+      "size": "col-lg-3 col-md-4 col-sm-6",
+      "link": "sosyalMedya/foto-3",
+      "clickType": "photo"
+    },
+    {
+      "id": "4",
+      "title": "social",
+      "image": "sosyalMedya/foto-4",
+      "size": "col-lg-3 col-md-4 col-sm-6",
+      "link": "sosyalMedya/foto-4",
+      "clickType": "photo"
+    },
+    {
+      "id": "5",
+      "title": "social",
+      "image": "sosyalMedya/foto-5",
+      "size": "col-lg-3 col-md-4 col-sm-6",
+      "link": "sosyalMedya/foto-5",
+      "clickType": "photo"
+    },
+    {
+      "id": "6",
+      "title": "social",
+      "image": "sosyalMedya/foto-6",
+      "size": "col-lg-3 col-md-4 col-sm-6",
+      "link": "sosyalMedya/foto-6",
+      "clickType": "photo"
+    },
+    {
+      "id": "7",
+      "title": "social",
+      "image": "sosyalMedya/foto-7",
+      "size": "col-lg-3 col-md-4 col-sm-6",
+      "link": "sosyalMedya/foto-7",
+      "clickType": "photo"
+    },
+    {
+      "id": "8",
+      "title": "social",
+      "image": "sosyalMedya/foto-8",
+      "size": "col-lg-3 col-md-4 col-sm-6",
+      "link": "sosyalMedya/foto-8",
+      "clickType": "photo"
+    },
+    {
+      "id": "9",
+      "title": "social",
+      "image": "sosyalMedya/foto-9",
+      "size": "col-lg-3 col-md-4 col-sm-6",
+      "link": "sosyalMedya/foto-9",
+      "clickType": "photo"
+    },
+    {
+      "id": "10",
+      "title": "social",
+      "image": "sosyalMedya/foto-10",
+      "size": "col-lg-3 col-md-4 col-sm-6",
+      "link": "sosyalMedya/foto-10",
+      "clickType": "photo"
+    },
+    {
+      "id": "11",
+      "title": "social",
+      "image": "sosyalMedya/foto-11",
+      "size": "col-lg-3 col-md-4 col-sm-6",
+      "link": "sosyalMedya/foto-11",
+      "clickType": "photo"
+    },
+    {
+      "id": "12",
+      "title": "social",
+      "image": "sosyalMedya/foto-12",
+      "size": "col-lg-3 col-md-4 col-sm-6",
+      "link": "sosyalMedya/foto-12",
+      "clickType": "photo"
+    },
+    {
+      "id": "13",
+      "title": "social",
+      "image": "sosyalMedya/foto-13",
+      "size": "col-lg-3 col-md-4 col-sm-6",
+      "link": "sosyalMedya/foto-13",
+      "clickType": "photo"
+    },
+    {
+      "id": "14",
+      "title": "social",
+      "image": "sosyalMedya/foto-14",
+      "size": "col-lg-3 col-md-4 col-sm-6",
+      "link": "sosyalMedya/foto-14",
+      "clickType": "photo"
+    },
+    {
+      "id": "15",
+      "title": "social",
+      "image": "sosyalMedya/foto-15",
+      "size": "col-lg-3 col-md-4 col-sm-6",
+      "link": "sosyalMedya/foto-15",
+      "clickType": "photo"
+    },
+    {
+      "id": "16",
+      "title": "social",
+      "image": "sosyalMedya/foto-16",
+      "size": "col-lg-3 col-md-4 col-sm-6",
+      "link": "sosyalMedya/foto-16",
+      "clickType": "photo"
+    },
+    {
+      "id": "17",
+      "title": "social",
+      "image": "sosyalMedya/foto-17",
+      "size": "col-lg-3 col-md-4 col-sm-6",
+      "link": "sosyalMedya/foto-17",
+      "clickType": "photo"
+    },
+    {
+      "id": "18",
+      "title": "social",
+      "image": "sosyalMedya/foto-18",
+      "size": "col-lg-3 col-md-4 col-sm-6",
+      "link": "sosyalMedya/foto-18",
+      "clickType": "photo"
+    },
+    {
+      "id": "19",
+      "title": "social",
+      "image": "sosyalMedya/foto-19",
+      "size": "col-lg-3 col-md-4 col-sm-6",
+      "link": "sosyalMedya/foto-19",
+      "clickType": "photo"
+    },
+    {
+      "id": "20",
+      "title": "social",
+      "image": "sosyalMedya/foto-20",
+      "size": "col-lg-3 col-md-4 col-sm-6",
+      "link": "sosyalMedya/foto-20",
+      "clickType": "photo"
+    },
+    {
+      "id": "21",
+      "title": "social",
+      "image": "sosyalMedya/foto-21",
+      "size": "col-lg-3 col-md-4 col-sm-6",
+      "link": "sosyalMedya/foto-21",
+      "clickType": "photo"
+    },
+    {
+      "id": "22",
+      "title": "social",
+      "image": "sosyalMedya/foto-22",
+      "size": "col-lg-3 col-md-4 col-sm-6",
+      "link": "sosyalMedya/foto-22",
+      "clickType": "photo"
+    },
+    {
+      "id": "23",
+      "title": "social",
+      "image": "sosyalMedya/foto-23",
+      "size": "col-lg-3 col-md-4 col-sm-6",
+      "link": "sosyalMedya/foto-23",
+      "clickType": "photo"
+    },
+    {
+      "id": "24",
+      "title": "social",
+      "image": "sosyalMedya/foto-24",
+      "size": "col-lg-3 col-md-4 col-sm-6",
+      "link": "sosyalMedya/foto-24",
+      "clickType": "photo"
+    },
+    {
+      "id": "25",
+      "title": "social",
+      "image": "sosyalMedya/foto-25",
+      "size": "col-lg-3 col-md-4 col-sm-6",
+      "link": "sosyalMedya/foto-25",
+      "clickType": "photo"
+    },
+    {
+      "id": "26",
+      "title": "social",
+      "image": "sosyalMedya/foto-26",
+      "size": "col-lg-3 col-md-4 col-sm-6",
+      "link": "sosyalMedya/foto-26",
+      "clickType": "photo"
+    },
+    {
+      "id": "27",
+      "title": "social",
+      "image": "sosyalMedya/foto-27",
+      "size": "col-lg-3 col-md-4 col-sm-6",
+      "link": "sosyalMedya/foto-27",
+      "clickType": "photo"
+    },
+    {
+      "id": "28",
+      "title": "social",
+      "image": "sosyalMedya/foto-28",
+      "size": "col-lg-3 col-md-4 col-sm-6",
+      "link": "sosyalMedya/foto-28",
+      "clickType": "photo"
+    },
+    {
+      "id": "29",
+      "title": "social",
+      "image": "sosyalMedya/foto-29",
+      "size": "col-lg-3 col-md-4 col-sm-6",
+      "link": "sosyalMedya/foto-29",
+      "clickType": "photo"
+    },
+    {
+      "id": "30",
+      "title": "social",
+      "image": "sosyalMedya/foto-30",
+      "size": "col-lg-3 col-md-4 col-sm-6",
+      "link": "sosyalMedya/foto-30",
+      "clickType": "photo"
+    },
+    {
+      "id": "31",
+      "title": "social",
+      "image": "sosyalMedya/foto-31",
+      "size": "col-lg-3 col-md-4 col-sm-6",
+      "link": "sosyalMedya/foto-31",
+      "clickType": "photo"
+    },
+    {
+      "id": "32",
+      "title": "social",
+      "image": "sosyalMedya/foto-32",
+      "size": "col-lg-3 col-md-4 col-sm-6",
+      "link": "sosyalMedya/foto-32",
+      "clickType": "photo"
+    },
+    {
+      "id": "33",
+      "title": "social",
+      "image": "sosyalMedya/foto-33",
+      "size": "col-lg-3 col-md-4 col-sm-6",
+      "link": "sosyalMedya/foto-33",
+      "clickType": "photo"
+    },
+    {
+      "id": "34",
+      "title": "social",
+      "image": "sosyalMedya/foto-34",
+      "size": "col-lg-3 col-md-4 col-sm-6",
+      "link": "sosyalMedya/foto-34",
+      "clickType": "photo"
+    },
+    {
+      "id": "35",
+      "title": "social",
+      "image": "sosyalMedya/foto-35",
+      "size": "col-lg-3 col-md-4 col-sm-6",
+      "link": "sosyalMedya/foto-35",
+      "clickType": "photo"
+    },
+    {
+      "id": "36",
+      "title": "social",
+      "image": "sosyalMedya/foto-36",
+      "size": "col-lg-3 col-md-4 col-sm-6",
+      "link": "sosyalMedya/foto-36",
+      "clickType": "photo"
+    }
+  ],
+  "fotograf": [
+    {
+      "id": "19",
+      "title": "photograph",
+      "image": "fotografCekim/foto-19",
+      "size": "col-lg-3 col-md-4 col-sm-12",
+      "link": "fotografCekim/foto-19",
+      "clickType": "photo"
+    },
+    {
+      "id": "20",
+      "title": "photograph",
+      "image": "fotografCekim/foto-20",
+      "size": "col-lg-3 col-md-4 col-sm-12",
+      "link": "fotografCekim/foto-20",
+      "clickType": "photo"
+    },
+    {
+      "id": "21",
+      "title": "photograph",
+      "image": "fotografCekim/foto-21",
+      "size": "col-lg-3 col-md-4 col-sm-12",
+      "link": "fotografCekim/foto-21",
+      "clickType": "photo"
+    },
+    {
+      "id": "22",
+      "title": "photograph",
+      "image": "fotografCekim/foto-22",
+      "size": "col-lg-3 col-md-4 col-sm-12",
+      "link": "fotografCekim/foto-22",
+      "clickType": "photo"
+    },
+    {
+      "id": "23",
+      "title": "photograph",
+      "image": "fotografCekim/foto-23",
+      "size": "col-lg-3 col-md-4 col-sm-12",
+      "link": "fotografCekim/foto-23",
+      "clickType": "photo"
+    },
+    {
+      "id": "24",
+      "title": "photograph",
+      "image": "fotografCekim/foto-24",
+      "size": "col-lg-3 col-md-4 col-sm-12",
+      "link": "fotografCekim/foto-24",
+      "clickType": "photo"
+    },
+    {
+      "id": "1",
+      "title": "photograph",
+      "image": "fotografCekim/foto-1",
+      "size": "col-lg-3 col-md-4 col-sm-12",
+      "link": "fotografCekim/foto-1",
+      "clickType": "photo"
+    },
+    {
+      "id": "2",
+      "title": "photograph",
+      "image": "fotografCekim/foto-2",
+      "size": "col-lg-3 col-md-4 col-sm-12",
+      "link": "fotografCekim/foto-2",
+      "clickType": "photo"
+    },
+    {
+      "id": "3",
+      "title": "photograph",
+      "image": "fotografCekim/foto-3",
+      "size": "col-lg-3 col-md-4 col-sm-12",
+      "link": "fotografCekim/foto-3",
+      "clickType": "photo"
+    },
+    {
+      "id": "4",
+      "title": "photograph",
+      "image": "fotografCekim/foto-4",
+      "size": "col-lg-3 col-md-4 col-sm-12",
+      "link": "fotografCekim/foto-4",
+      "clickType": "photo"
+    },
+    {
+      "id": "5",
+      "title": "photograph",
+      "image": "fotografCekim/foto-5",
+      "size": "col-lg-3 col-md-4 col-sm-12",
+      "link": "fotografCekim/foto-5",
+      "clickType": "photo"
+    },
+    {
+      "id": "6",
+      "title": "photograph",
+      "image": "fotografCekim/foto-6",
+      "size": "col-lg-3 col-md-4 col-sm-12",
+      "link": "fotografCekim/foto-6",
+      "clickType": "photo"
+    },
+    {
+      "id": "7",
+      "title": "photograph",
+      "image": "fotografCekim/foto-7",
+      "size": "col-lg-3 col-md-4 col-sm-12",
+      "link": "fotografCekim/foto-7",
+      "clickType": "photo"
+    },
+    {
+      "id": "8",
+      "title": "photograph",
+      "image": "fotografCekim/foto-8",
+      "size": "col-lg-3 col-md-4 col-sm-12",
+      "link": "fotografCekim/foto-8",
+      "clickType": "photo"
+    },
+    {
+      "id": "9",
+      "title": "photograph",
+      "image": "fotografCekim/foto-9",
+      "size": "col-lg-3 col-md-4 col-sm-12",
+      "link": "fotografCekim/foto-9",
+      "clickType": "photo"
+    },
+    {
+      "id": "10",
+      "title": "photograph",
+      "image": "fotografCekim/foto-10",
+      "size": "col-lg-3 col-md-4 col-sm-12",
+      "link": "fotografCekim/foto-10",
+      "clickType": "photo"
+    },
+    {
+      "id": "11",
+      "title": "photograph",
+      "image": "fotografCekim/foto-11",
+      "size": "col-lg-3 col-md-4 col-sm-12",
+      "link": "fotografCekim/foto-11",
+      "clickType": "photo"
+    },
+    {
+      "id": "12",
+      "title": "photograph",
+      "image": "fotografCekim/foto-12",
+      "size": "col-lg-3 col-md-4 col-sm-12",
+      "link": "fotografCekim/foto-12",
+      "clickType": "photo"
+    },
+    {
+      "id": "13",
+      "title": "photograph",
+      "image": "fotografCekim/foto-13",
+      "size": "col-lg-3 col-md-4 col-sm-12",
+      "link": "fotografCekim/foto-13",
+      "clickType": "photo"
+    },
+    {
+      "id": "14",
+      "title": "photograph",
+      "image": "fotografCekim/foto-14",
+      "size": "col-lg-3 col-md-4 col-sm-12",
+      "link": "fotografCekim/foto-14",
+      "clickType": "photo"
+    },
+    {
+      "id": "15",
+      "title": "photograph",
+      "image": "fotografCekim/foto-15",
+      "size": "col-lg-3 col-md-4 col-sm-12",
+      "link": "fotografCekim/foto-15",
+      "clickType": "photo"
+    },
+    {
+      "id": "16",
+      "title": "photograph",
+      "image": "fotografCekim/foto-16",
+      "size": "col-lg-3 col-md-4 col-sm-12",
+      "link": "fotografCekim/foto-16",
+      "clickType": "photo"
+    },
+    {
+      "id": "17",
+      "title": "photograph",
+      "image": "fotografCekim/foto-17",
+      "size": "col-lg-3 col-md-4 col-sm-12",
+      "link": "fotografCekim/foto-17",
+      "clickType": "photo"
+    },
+    {
+      "id": "18",
+      "title": "photograph",
+      "image": "fotografCekim/foto-18",
+      "size": "col-lg-3 col-md-4 col-sm-12",
+      "link": "fotografCekim/foto-18",
+      "clickType": "photo"
+    },
+    {
+      "id": "25",
+      "title": "photograph",
+      "image": "fotografCekim/foto-25",
+      "size": "col-lg-3 col-md-4 col-sm-12",
+      "link": "fotografCekim/foto-25",
+      "clickType": "photo"
+    },
+    {
+      "id": "26",
+      "title": "photograph",
+      "image": "fotografCekim/foto-26",
+      "size": "col-lg-3 col-md-4 col-sm-12",
+      "link": "fotografCekim/foto-26",
+      "clickType": "photo"
+    },
+    {
+      "id": "27",
+      "title": "photograph",
+      "image": "fotografCekim/foto-27",
+      "size": "col-lg-3 col-md-4 col-sm-12",
+      "link": "fotografCekim/foto-27",
+      "clickType": "photo"
+    },
+    {
+      "id": "28",
+      "title": "photograph",
+      "image": "fotografCekim/foto-28",
+      "size": "col-lg-3 col-md-4 col-sm-12",
+      "link": "fotografCekim/foto-28",
+      "clickType": "photo"
+    },
+    {
+      "id": "29",
+      "title": "photograph",
+      "image": "fotografCekim/foto-29",
+      "size": "col-lg-3 col-md-4 col-sm-12",
+      "link": "fotografCekim/foto-29",
+      "clickType": "photo"
+    },
+    {
+      "id": "30",
+      "title": "photograph",
+      "image": "fotografCekim/foto-30",
+      "size": "col-lg-3 col-md-4 col-sm-12",
+      "link": "fotografCekim/foto-30",
+      "clickType": "photo"
+    },
+    {
+      "id": "31",
+      "title": "photograph",
+      "image": "fotografCekim/foto-31",
+      "size": "col-lg-3 col-md-4 col-sm-12",
+      "link": "fotografCekim/foto-31",
+      "clickType": "photo"
+    },
+    {
+      "id": "32",
+      "title": "photograph",
+      "image": "fotografCekim/foto-32",
+      "size": "col-lg-3 col-md-4 col-sm-12",
+      "link": "fotografCekim/foto-32",
+      "clickType": "photo"
+    },
+    {
+      "id": "33",
+      "title": "photograph",
+      "image": "fotografCekim/foto-33",
+      "size": "col-lg-3 col-md-4 col-sm-12",
+      "link": "fotografCekim/foto-33",
+      "clickType": "photo"
+    },
+    {
+      "id": "34",
+      "title": "photograph",
+      "image": "fotografCekim/foto-34",
+      "size": "col-lg-3 col-md-4 col-sm-12",
+      "link": "fotografCekim/foto-34",
+      "clickType": "photo"
+    },
+    {
+      "id": "35",
+      "title": "photograph",
+      "image": "fotografCekim/foto-35",
+      "size": "col-lg-3 col-md-4 col-sm-12",
+      "link": "fotografCekim/foto-35",
+      "clickType": "photo"
+    },
+    {
+      "id": "36",
+      "title": "photograph",
+      "image": "fotografCekim/foto-36",
+      "size": "col-lg-3 col-md-4 col-sm-12",
+      "link": "fotografCekim/foto-36",
+      "clickType": "photo"
+    },
+    {
+      "id": "37",
+      "title": "photograph",
+      "image": "fotografCekim/foto-37",
+      "size": "col-lg-3 col-md-4 col-sm-12",
+      "link": "fotografCekim/foto-37",
+      "clickType": "photo"
+    },
+    {
+      "id": "38",
+      "title": "photograph",
+      "image": "fotografCekim/foto-38",
+      "size": "col-lg-3 col-md-4 col-sm-12",
+      "link": "fotografCekim/foto-38",
+      "clickType": "photo"
+    },
+    {
+      "id": "39",
+      "title": "photograph",
+      "image": "fotografCekim/foto-39",
+      "size": "col-lg-3 col-md-4 col-sm-12",
+      "link": "fotografCekim/foto-39",
+      "clickType": "photo"
+    },
+    {
+      "id": "40",
+      "title": "photograph",
+      "image": "fotografCekim/foto-40",
+      "size": "col-lg-3 col-md-4 col-sm-12",
+      "link": "fotografCekim/foto-40",
+      "clickType": "photo"
+    },
+    {
+      "id": "41",
+      "title": "photograph",
+      "image": "fotografCekim/foto-41",
+      "size": "col-lg-3 col-md-4 col-sm-12",
+      "link": "fotografCekim/foto-41",
+      "clickType": "photo"
+    },
+    {
+      "id": "42",
+      "title": "photograph",
+      "image": "fotografCekim/foto-42",
+      "size": "col-lg-3 col-md-4 col-sm-12",
+      "link": "fotografCekim/foto-42",
+      "clickType": "photo"
+    },
+    {
+      "id": "43",
+      "title": "photograph",
+      "image": "fotografCekim/foto-43",
+      "size": "col-lg-3 col-md-4 col-sm-12",
+      "link": "fotografCekim/foto-43",
+      "clickType": "photo"
+    },
+    {
+      "id": "44",
+      "title": "photograph",
+      "image": "fotografCekim/foto-44",
+      "size": "col-lg-3 col-md-4 col-sm-12",
+      "link": "fotografCekim/foto-44",
+      "clickType": "photo"
+    },
+    {
+      "id": "45",
+      "title": "photograph",
+      "image": "fotografCekim/foto-45",
+      "size": "col-lg-3 col-md-4 col-sm-12",
+      "link": "fotografCekim/foto-45",
+      "clickType": "photo"
+    }
+  ],
+  "modelleme": [
+    {
+      "id": "1",
+      "title": "model",
+      "image": "modelleme3d/foto-1",
+      "size": "col-lg-4 col-sm-6",
+      "link": "modelleme3d/foto-1",
+      "clickType": "photo"
+    },
+    {
+      "id": "2",
+      "title": "model",
+      "image": "modelleme3d/foto-2",
+      "size": "col-lg-4 col-sm-6",
+      "link": "modelleme3d/foto-2",
+      "clickType": "photo"
+    },
+    {
+      "id": "3",
+      "title": "model",
+      "image": "modelleme3d/foto-3",
+      "size": "col-lg-4 col-sm-6",
+      "link": "modelleme3d/foto-3",
+      "clickType": "photo"
+    },
+    {
+      "id": "4",
+      "title": "model",
+      "image": "modelleme3d/foto-4",
+      "size": "col-lg-4 col-sm-6",
+      "link": "modelleme3d/foto-4",
+      "clickType": "photo"
+    },
+    {
+      "id": "5",
+      "title": "model",
+      "image": "modelleme3d/foto-5",
+      "size": "col-lg-4 col-sm-6",
+      "link": "modelleme3d/foto-5",
+      "clickType": "photo"
+    },
+    {
+      "id": "6",
+      "title": "model",
+      "image": "modelleme3d/foto-6",
+      "size": "col-lg-4 col-sm-6",
+      "link": "modelleme3d/foto-6",
+      "clickType": "photo"
+    },
+    {
+      "id": "7",
+      "title": "model",
+      "image": "modelleme3d/foto-7",
+      "size": "col-lg-4 col-sm-6",
+      "link": "modelleme3d/foto-7",
+      "clickType": "photo"
+    },
+    {
+      "id": "8",
+      "title": "model",
+      "image": "modelleme3d/foto-8",
+      "size": "col-lg-4 col-sm-6",
+      "link": "modelleme3d/foto-8",
+      "clickType": "photo"
+    },
+    {
+      "id": "9",
+      "title": "model",
+      "image": "modelleme3d/foto-9",
+      "size": "col-lg-4 col-sm-6",
+      "link": "modelleme3d/foto-9",
+      "clickType": "photo"
+    },
+    {
+      "id": "10",
+      "title": "model",
+      "image": "modelleme3d/foto-10",
+      "size": "col-lg-4 col-sm-6",
+      "link": "modelleme3d/foto-10",
+      "clickType": "photo"
+    },
+    {
+      "id": "11",
+      "title": "model",
+      "image": "modelleme3d/foto-11",
+      "size": "col-lg-4 col-sm-6",
+      "link": "modelleme3d/foto-11",
+      "clickType": "photo"
+    },
+    {
+      "id": "12",
+      "title": "model",
+      "image": "modelleme3d/foto-12",
+      "size": "col-lg-4 col-sm-6",
+      "link": "modelleme3d/foto-12",
+      "clickType": "photo"
+    },
+    {
+      "id": "13",
+      "title": "model",
+      "image": "modelleme3d/foto-13",
+      "size": "col-lg-4 col-sm-6",
+      "link": "modelleme3d/foto-13",
+      "clickType": "photo"
+    },
+    {
+      "id": "14",
+      "title": "model",
+      "image": "modelleme3d/foto-14",
+      "size": "col-lg-4 col-sm-6",
+      "link": "modelleme3d/foto-14",
+      "clickType": "photo"
+    },
+    {
+      "id": "15",
+      "title": "model",
+      "image": "modelleme3d/foto-15",
+      "size": "col-lg-4 col-sm-6",
+      "link": "modelleme3d/foto-15",
+      "clickType": "photo"
+    },
+    {
+      "id": "16",
+      "title": "model",
+      "image": "modelleme3d/foto-16",
+      "size": "col-lg-4 col-sm-6",
+      "link": "modelleme3d/foto-16",
+      "clickType": "photo"
+    },
+    {
+      "id": "17",
+      "title": "model",
+      "image": "modelleme3d/foto-17",
+      "size": "col-lg-4 col-sm-6",
+      "link": "modelleme3d/foto-17",
+      "clickType": "photo"
+    },
+    {
+      "id": "18",
+      "title": "model",
+      "image": "modelleme3d/foto-18",
+      "size": "col-lg-4 col-sm-6",
+      "link": "modelleme3d/foto-18",
+      "clickType": "photo"
+    },
+    {
+      "id": "19",
+      "title": "model",
+      "image": "modelleme3d/foto-19",
+      "size": "col-lg-4 col-sm-6",
+      "link": "modelleme3d/foto-19",
+      "clickType": "photo"
+    },
+    {
+      "id": "20",
+      "title": "model",
+      "image": "modelleme3d/foto-20",
+      "size": "col-lg-4 col-sm-6",
+      "link": "modelleme3d/foto-20",
+      "clickType": "photo"
+    },
+    {
+      "id": "21",
+      "title": "model",
+      "image": "modelleme3d/foto-21",
+      "size": "col-lg-4 col-sm-6",
+      "link": "modelleme3d/foto-21",
+      "clickType": "photo"
+    },
+    {
+      "id": "22",
+      "title": "model",
+      "image": "modelleme3d/foto-22",
+      "size": "col-lg-4 col-sm-6",
+      "link": "modelleme3d/foto-22",
+      "clickType": "photo"
+    },
+    {
+      "id": "23",
+      "title": "model",
+      "image": "modelleme3d/foto-23",
+      "size": "col-lg-4 col-sm-6",
+      "link": "modelleme3d/foto-23",
+      "clickType": "photo"
+    },
+    {
+      "id": "24",
+      "title": "model",
+      "image": "modelleme3d/foto-24",
+      "size": "col-lg-4 col-sm-6",
+      "link": "modelleme3d/foto-24",
+      "clickType": "photo"
+    },
+    {
+      "id": "25",
+      "title": "model",
+      "image": "modelleme3d/foto-25",
+      "size": "col-lg-4 col-sm-6",
+      "link": "modelleme3d/foto-25",
+      "clickType": "photo"
+    },
+    {
+      "id": "26",
+      "title": "model",
+      "image": "modelleme3d/foto-26",
+      "size": "col-lg-4 col-sm-6",
+      "link": "modelleme3d/foto-26",
+      "clickType": "photo"
+    },
+    {
+      "id": "27",
+      "title": "model",
+      "image": "modelleme3d/foto-27",
+      "size": "col-lg-4 col-sm-6",
+      "link": "modelleme3d/foto-27",
+      "clickType": "photo"
+    },
+    {
+      "id": "28",
+      "title": "model",
+      "image": "modelleme3d/foto-28",
+      "size": "col-lg-4 col-sm-6",
+      "link": "modelleme3d/foto-28",
+      "clickType": "photo"
+    },
+    {
+      "id": "29",
+      "title": "model",
+      "image": "modelleme3d/foto-29",
+      "size": "col-lg-4 col-sm-6",
+      "link": "modelleme3d/foto-29",
+      "clickType": "photo"
+    }
+  ],
+  "animasyon": [
+    {
+      "id": "1",
+      "title": "animation",
+      "image": "animasyon3d/petrol",
+      "size": "col-lg-3 col-sm-12",
+      "link": "https://www.youtube.com/embed/UpX02_9r45o",
+      "clickType": "video"
+    },
+    {
+      "id": "2",
+      "title": "animation",
+      "image": "animasyon3d/naxcivan",
+      "size": "col-lg-3 col-sm-12",
+      "link": "https://www.youtube.com/embed/z33Ez2Zp4qE",
+      "clickType": "video"
+    },
+    {
+      "id": "3",
+      "title": "animation",
+      "image": "animasyon3d/manisa",
+      "size": "col-lg-3 col-sm-12",
+      "link": "https://www.youtube.com/embed/Arj01IYZaZU",
+      "clickType": "video"
+    }
+  ]
+}

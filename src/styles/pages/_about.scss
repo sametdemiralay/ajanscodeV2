@@ -1,0 +1,21 @@
+.aboutWrapper{
+  margin-bottom: 100px;
+  margin-top: 100px;
+
+  img{
+    width: 100%;
+  }
+
+  p{
+    font-size: 20px;
+    line-height: 30px;
+  }
+  @include mobileScreen{
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+    p{
+      margin-top: 15px;
+    }
+  }
+}

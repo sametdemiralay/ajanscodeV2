@@ -1,0 +1,377 @@
+$total-lines: 6;
+
+$left-offset: 29px;
+$clip-height: 50px;
+$line-height: $clip-height - 5px;
+
+
+
+.title {
+  font-size: 30px;
+  font-weight: 900;
+  color: $blue;
+
+  &::after{
+    content: "";
+    width: 300px;
+    height: 2px;
+    display: block;
+    background: $blue;
+  }
+}
+
+.secOne {
+  padding-top: 90px;
+  img {
+    width: 100%;
+    height: 90vh;
+    @include mobileScreen{
+      height: 400px;
+  }
+}
+
+  &__title {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    h1 {
+      font-family: "Cormorant Garamond", serif;
+      font-weight: 300;
+      font-size: 140px;
+      color: #fff;
+      animation: headerTitle 5s infinite;
+    }
+
+    @include tabletScreen{
+      h1{
+        font-size: 100px;
+      }
+    }
+    @include mobileScreen{
+      h1{
+        font-size: 50px;
+      }
+    }
+  }
+}
+
+.secTwo {
+  &__photoArea {
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 100%;
+    }
+  }
+  &__textArea {
+    padding: 50px 60px;
+
+    p {
+      font-size: 20px;
+      line-height: 30px;
+      letter-spacing: 1px;
+      margin: 30px 0;
+
+      @include smallScreen{
+        font-size: 18px;
+        line-height: 25px;
+      }
+    }
+  }
+
+  @include mobileScreen{
+    &__photoArea {
+      display: none;
+    }
+    &__textArea {
+      padding: 50px 15px;
+    }
+  }
+}
+
+.secFive {
+  background: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 70, 143));
+  color: #fff;
+  display: flex;
+  height: 80vh;
+  position: relative;
+
+  &__stairs {
+    padding: 100px 0;
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+    letter-spacing: -4px;
+    transform: translate3d(0, 0, 0);
+
+    &--line {
+      height: $clip-height;
+      overflow: hidden;
+      position: relative;
+
+      &:nth-child(odd) {
+        transform: skew(60deg, -30deg) scaleY(0.66667);
+      }
+      &:nth-child(even) {
+        transform: skew(0deg, -30deg) scaleY(1.33333);
+      }
+
+      @for $i from 1 through $total-lines + 1 {
+        &:nth-child(#{$i}) {
+          left: $left-offset * $i;
+          @include mobileScreen{
+            left: 15px * $i;
+          }
+        }
+      }
+
+      p {
+        height: $clip-height;
+        line-height: $line-height;
+        padding: 0 10px;
+        transition: all 0.4s ease-in-out;
+        transform: translate3d(0, 0, 0);
+        vertical-align: top;
+        white-space: nowrap;
+      }
+
+      @include mobileScreen{
+        &:nth-child(odd) {
+          transform: none;
+        }
+        &:nth-child(even) {
+          transform: none;
+        }
+
+        p{
+          padding: 0;
+        }
+      }
+    }
+
+    &:hover {
+      p {
+        transform: translate3d(0, -($clip-height), 0);
+      }
+    }
+    @include tabletScreen{
+      font-size: 40px;
+    }
+    @include mobileScreen{
+      font-size: 20px;
+    }
+  }
+
+  div {
+    position: absolute;
+    right: 10px;
+    bottom: 55px;
+    transform: rotate(325deg);
+
+    img {
+      height: 40px;
+    }
+  }
+  @include mobileScreen{
+    display: none;
+  }
+}
+
+@keyframes headerTitle {
+  0% {
+    text-shadow: 0 0 6px $blue;
+    color: $light;
+  }
+  25% {
+    text-shadow: 0 0 15px $blue;
+  }
+  50% {
+    text-shadow: 0 0 23px $light;
+    color: $blue;
+  }
+  75% {
+    text-shadow: 0 0 15px $blue;
+  }
+  100% {
+    text-shadow: 0 0 6px $blue;
+    color: $light;
+  }
+}
+
+
+
+
+
+
+
+
+@mixin rotated-text($num-letters) {
+  $angle-span: 26deg;
+  $angle-offset: -13deg;
+$angle-per-char: $angle-span / $num-letters;
+  @for $i from 1 through $num-letters {
+    .char#{$i} {
+      transform: rotate($angle-offset + $angle-per-char * $i);
+    }
+  }
+}
+
+.container2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 55vh;
+  width: 100%;
+
+  &:hover{
+    & > .section{
+      filter: brightness(22%);
+    }
+    & > .section:hover{
+      filter: brightness(100%);
+    }
+  }
+  
+  .section{
+    flex-grow: 1;
+    position: relative;
+    height: 100%;
+    transition: all 0.4s;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    text-align: center;
+    flex: 1;
+    background-position: center !important;
+    background-size: cover !important;
+    
+    .cont_title{
+      position:relative;
+      margin: auto;
+      width: 100%;
+      height: auto;
+      text-align: center;
+      margin-top: 23vh;
+      h1{
+        text-transform: uppercase;
+        color: white;
+        font-family: 'Economica', sans-serif;
+        text-shadow: 1px 2px 5px rgba(0,0,0,0.5);
+        font-size: 30px;
+        margin: 0;
+        transition: font-size 0.3s;
+        vertical-align: middle;
+        @include tabletScreen{
+          font-size: 20px;
+
+        }
+      }
+
+      @include mobileScreen{
+        margin-top: 75px;
+      }
+      
+    }
+    
+    .cont_desc{
+      position: relative;
+      display: block;
+      text-align: center;
+      width: 50%;
+      height: auto;
+      margin: auto;
+      opacity: 0;
+      transition: opacity 0.8s, transform 0.7s, padding-top 0.9s;
+      padding-top: 6vh;
+      transform: scale(1);
+      a{
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        p{
+          margin: 0;
+          font-family: 'Economica', sans-serif;
+          color: $white;
+          font-size: 15px;
+          border: 1px solid rgba(255,255,255, .5);
+          width: 75%;
+          padding: 7px;
+          margin-top: 20px;
+
+          &:hover{
+            background: $lightHover;
+            color: $blue;
+          }
+          @include tabletScreen{
+            font-size: 12px;
+          }
+        }
+      }
+
+      @include mobileScreen{
+        margin-bottom: 50px;
+      }
+    }
+    
+    &:hover{
+      flex-grow: 1.8;
+      transition: flex 0.2s;
+      
+      & > .cont_title h1{
+        font-size: 35px;
+        transition: font-size 0.4s;
+        @include tabletScreen{
+          font-size: 25px;
+        }
+      }
+      
+      & > .cont_desc{
+        opacity: 1;
+        padding-top: 2vh;
+        transform: scale(1.5);
+        transition: opacity 0.7s, padding-top 0.5s, transform 0.1s;
+        
+        transition-delay: 0s, 0.1s, 0s;
+      }
+      
+    }
+
+    @include tabletScreen{
+      flex: 33.3%;
+    }
+    @include mobileScreen{
+      flex: 100%;
+    }
+    
+  }
+
+  @include tabletScreen{
+    height: 100%;
+  }
+  
+}
+
+
+.secFour{
+  padding: 50px 0;
+
+  .row{
+    margin: 30px 0;
+  }
+  .title{
+    margin: 30px 0;
+  }
+
+  img{
+    width: 90%;
+    margin-bottom: 10px;
+  }
+
+  @include mobileScreen{
+    padding: 50px 15px;
+  }
+}

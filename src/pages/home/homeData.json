@@ -1,0 +1,163 @@
+{
+  "ourWorks": [
+    {
+      "id": "1",
+      "nameRowOne": "Tanıtım",
+      "nameRowTwo": "Filmi",
+      "image": "tanitim-filmi",
+      "link": "/islerimiz/tanitim-filmi",
+      "desc": "Projelerimizi İncele"
+    },
+    {
+      "id": "2",
+      "nameRowOne": "Web",
+      "nameRowTwo": "Tasarım",
+      "image": "web-site",
+      "link": "/islerimiz/web-yazilim",
+      "desc": "Projelerimizi İncele"
+    },
+    {
+      "id": "3",
+      "nameRowOne": "Grafik",
+      "nameRowTwo": "Tasarım",
+      "image": "grafik-tasarim",
+      "link": "/islerimiz/grafik-tasarim",
+      "desc": "Projelerimizi İncele"
+    },
+    {
+      "id": "4",
+      "nameRowOne": "3D",
+      "nameRowTwo": "Modelleme",
+      "image": "3d-modelleme",
+      "link": "/islerimiz/modelleme",
+      "desc": "Projelerimizi İncele"
+    },
+    {
+      "id": "5",
+      "nameRowOne": "LOGO &",
+      "nameRowTwo": "Kurumsal Kimlik",
+      "image": "logo-kurumsal",
+      "link": "/islerimiz/logo",
+      "desc": "Projelerimizi İncele"
+    },
+    {
+      "id": "6",
+      "nameRowOne": "Sosyal",
+      "nameRowTwo": "Medya",
+      "image": "sosya-medya",
+      "link": "/islerimiz/sosyal-medya",
+      "desc": "Projelerimizi İncele"
+    }
+  ],
+  "ourReferences": [
+    {
+      "id": "1",
+      "image" : "arbor"
+    },
+    {
+      "id": "2",
+      "image" : "rico"
+    },
+    {
+      "id": "3",
+      "image" : "gezer"
+    },
+    {
+      "id": "4",
+      "image" : "efor"
+    },
+    {
+      "id": "5",
+      "image" : "evset"
+    },
+    {
+      "id": "6",
+      "image" : "frs-makina"
+    },
+    {
+      "id": "7",
+      "image" : "erengroup"
+    },
+    {
+      "id": "8",
+      "image" : "metplas"
+    },
+    {
+      "id": "9",
+      "image" : "mihrabat"
+    },
+    {
+      "id": "10",
+      "image" : "pass"
+    },
+    {
+      "id": "11",
+      "image" : "besel"
+    },
+    {
+      "id": "12",
+      "image" : "yasin"
+    },
+    {
+      "id": "13",
+      "image" : "rubikap"
+    },
+    {
+      "id": "14",
+      "image" : "akbaba"
+    },
+    {
+      "id": "15",
+      "image" : "salcano"
+    },
+    {
+      "id": "16",
+      "image" : "sembol-pak"
+    },
+    {
+      "id": "17",
+      "image" : "sanko-makina"
+    },
+    {
+      "id": "18",
+      "image" : "tugra-tekstil"
+    }
+  ],
+  "obliqueArea": [
+    {
+      "id": "1",
+      "rowTop": "",
+      "rowBot": "TANITIM FİLMİ"
+    },
+    {
+      "id": "2",
+      "rowTop": "TANITIM FİLMİ",
+      "rowBot": "WEB TASARIM"
+    },
+    {
+      "id": "3",
+      "rowTop": "WEB TASARIM",
+      "rowBot": "GRAFiK TASARIM"
+    },
+    {
+      "id": "4",
+      "rowTop": "GRAFiK TASARIM",
+      "rowBot": "3D MODELLEME"
+    },
+    {
+      "id": "5",
+      "rowTop": "3D MODELLEME",
+      "rowBot": "LOGO & KURUMSAL KİMLİK"
+    },
+    {
+      "id": "6",
+      "rowTop": "LOGO & KURUMSAL KİMLİK",
+      "rowBot": "SOSYAL MEDYA"
+    },
+    {
+      "id": "7",
+      "rowTop": "SOSYAL MEDYA",
+      "rowBot": ""
+    }
+  ]
+}

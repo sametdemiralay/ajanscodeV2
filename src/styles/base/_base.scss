@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: $white;
+  color: $dark;
+  font-family: 'Roboto', sans-serif;
+
+  &::-webkit-scrollbar{
+    width: 10px;
+    background: $dark;
+  }
+  &::-webkit-scrollbar-thumb{
+    background: $blue;
+
+    &:hover{
+      background: $blueHover;
+    }
+  }
+}
