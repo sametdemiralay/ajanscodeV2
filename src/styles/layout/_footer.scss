@@ -1,12 +1,9 @@
 .footerSocialSec {
-  // align-items: center;
-  // justify-content: center;
-  // height: 13vh;
-  // display: flex;
 
   .social-icons {
     display: flex;
     padding: 0;
+    margin-top: 10px;
 
     li {
       display: inline-block;
@@ -111,7 +108,7 @@
   border-top: 5px solid darken($color:$lightHover, $amount: 20);
 
   img {
-    width: 330px;
+    width: 300px;
   }
 
   p{
@@ -154,6 +151,7 @@
   }
 
   .allRights{
+    color: $blue;
     @include mobileScreen{
       display: none;
     }

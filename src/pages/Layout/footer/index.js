@@ -1,5 +1,5 @@
 import React from "react";
-import Logoo from "../../../images/logo.png";
+import Logoo from "../../../images/logo-blue.png";
 import { Link } from "react-router-dom";
 
 import { SocialLinks, Baglantilar, Islerr, Contactt } from "./FooterData";
@@ -26,7 +26,9 @@ const index = () => {
                 </li>
               ))}
             </ul>
-            <p className="allRights">© {currentDate} Her hakkı AJANSCODE'a aittir.</p>
+            <p className="allRights">
+              © {currentDate} Her hakkı AJANSCODE'a aittir.
+            </p>
           </div>
           <div className="col-lg-2 col-md-6 col-sm-12">
             <h5>Bağlantılar</h5>

@@ -3,47 +3,72 @@ import SubMenu from "./SubMenu";
 import Logoo from "../../../images/logo.png";
 import * as FaIcons from "react-icons/fa";
 import NavbarData from "./NavbarData.json";
+import { Link } from "react-router-dom";
 
 const index = () => {
-  const [sideBar, setSideBar] = useState(false);
-  const showSideBar = () => setSideBar(!sideBar);
+  const [isOpen, setIsOpen] = useState(true);
 
-  const [scrollPosition, setSrollPosition] = useState(0);
-  const handleScroll = () => {
-    const position = window.pageYOffset;
-    setSrollPosition(position);
+  const isOpenHandler = () => {
+    setIsOpen(!isOpen);
   };
 
+  const [widthh, setWidthh] = useState(window.innerWidth);
+
+  // get window width
+  const updateDimension = () => {
+    setWidthh(window.innerWidth);
+  };
   useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("resize", updateDimension);
+    return () => window.removeEventListener("resize", updateDimension);
   }, []);
 
   return (
-    <div className="navbarArea">
-      <div className="container">
-        <div className="navbarClose">
-          <a
-            onClick={showSideBar}
-            className={sideBar ? "menu-iconn is-active" : "menu-iconn"}
-          >
-            <i>Menü</i>
-          </a>
-          <div className={scrollPosition > 710 && "dontLookBitch"}>
-            <p><FaIcons.FaPhoneAlt /> <span>+90 (212) 249 4413</span></p>
-            <p><FaIcons.FaPhoneAlt /> <span>+90 (532) 271 6500</span></p>
-            <p><FaIcons.FaEnvelope /> <span>info@ajanscode.com.tr</span></p>
+    <>
+      <div className="navbarArea">
+        <div className="container">
+          <div className="mobileTop">
+            <Link className="NavLogoA" to="/">
+              <img src={Logoo} alt="" />
+            </Link>
+
+            <button onClick={isOpenHandler}>
+              <FaIcons.FaBars />
+            </button>
           </div>
-          <img className={scrollPosition < 710 && "dontLookBitch"} src={Logoo} alt="" />
+
+          <div className={`navigationn ${isOpen && widthh < 992 && "close"}`}>
+            <ul>
+              {NavbarData.projectPages.map((item, index) => (
+                <li key={index} className={item.subNavv && "dropdown"}>
+                  <Link
+                    to={item.subNavv ? "#" : item.path}
+                    onClick={!item.subNavv && isOpenHandler}
+                    className="nav-item"
+                  >
+                    <span>{item.title}</span>
+                  </Link>
+
+                  {item.subNavv && (
+                    <div className="dropdownMenu">
+                      {item.subNavv.map((itemm, indexx) => (
+                        <Link
+                          to={itemm.path}
+                          key={indexx}
+                          onClick={isOpenHandler}
+                        >
+                          <span>{itemm.title}</span>
+                        </Link>
+                      ))}
+                    </div>
+                  )}
+                </li>
+              ))}
+            </ul>
+          </div>
         </div>
-        <nav className={sideBar ? "sidebarOpen" : "sidebarClose"}>
-          <div className="sidebarOpen__btn">
-            {NavbarData.projectPages.map((item, index) => {
-              return <SubMenu showSideBar={showSideBar}  item={item} key={index} />;
-            })}
-          </div>
-        </nav>
       </div>
-    </div>
+    </>
   );
 };
 

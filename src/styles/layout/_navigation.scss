@@ -1,9 +1,104 @@
-.navbarArea{
+.navbarArea {
   width: 100%;
   position: fixed;
   z-index: 999;
-  background: $light;
-  border-bottom: 3px solid darken($color:$lightHover, $amount: 20);
+  background: $blue;
+  border-bottom: 3px solid darken($color: $lightHover, $amount: 20);
+
+  // v2
+  .container {
+    display: flex;
+    justify-content: space-between;
+
+    .mobileTop {
+      padding-top: 15px;
+
+      button {
+        display: none;
+      }
+    }
+    .navigationn {
+      display: flex;
+      align-items: center;
+      ul {
+        display: flex;
+        align-items: center;
+        li {
+          padding: 25px 0 25px 15px;
+
+          .nav-item {
+            color: $white;
+            text-decoration: none;
+          }
+        }
+        .dropdown {
+          .dropdownMenu {
+            display: none;
+            flex-direction: column;
+            position: absolute;
+            top: 65px;
+            background: darken($color:$lightHover, $amount: 20);
+            padding: 5px 10px;
+
+            a{
+              text-decoration: none;
+              color: $white;
+              margin-bottom: 5px;
+
+              &:hover{
+                color: $blue;
+              }
+            }
+          }
+          &:hover {
+            .dropdownMenu {
+              display: flex;
+            }
+          }
+        }
+      }
+    }
+
+    .close{
+      display: none;
+    }
+
+    @include mobileScreen {
+      flex-direction: column;
+      .mobileTop {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 10px 5px;
+
+        button {
+          display: block;
+          padding: 5px 20px;
+          margin-top: 5px;
+          height: 30px;
+        }
+      }
+
+      .navigationn{
+        justify-content: center;
+        ul{
+          flex-direction: column;
+          li{
+            text-align: center;
+          }
+          .dropdown {
+            .dropdownMenu {
+              position: initial;
+              margin-top: 10px;
+              background: rgba(105,105,105,.6);
+              a{
+                margin-bottom: 15px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 .navbarClose {
@@ -13,44 +108,44 @@
   justify-content: space-between;
   align-items: center;
 
-  .dontLookBitch{
+  .dontLookBitch {
     display: none;
   }
 
-  div{
+  div {
     color: $blue;
-    p{
+    p {
       margin-bottom: 5px;
       display: inline-flex;
       font-size: 20px;
       margin-left: 10px;
 
-      svg{
+      svg {
         font-size: 18px;
       }
 
-      span{
+      span {
         padding-left: 5px;
       }
     }
   }
 
-  img{
+  img {
     width: 250px;
   }
 
-  @include mobileScreen{
+  @include mobileScreen {
     justify-content: space-around;
-    div{
+    div {
       width: 50%;
-      p{
+      p {
         font-size: 15px;
-        svg{
+        svg {
           font-size: 15px;
         }
       }
     }
-    img{
+    img {
       width: 200px;
     }
   }
@@ -114,7 +209,7 @@
     &:hover {
       background: $darkHover;
       cursor: pointer;
-      color: $white
+      color: $white;
     }
   }
 }
@@ -123,37 +218,30 @@
   left: -100%;
 }
 
-
-
-
-
 // menu
 $menu-icon-size: 25;
 $menu-icon-color: $blue;
-$menu-icon-speed: .10s;
+$menu-icon-speed: 0.1s;
 $menu-icon-width: $menu-icon-size;
-$menu-icon-height: floor((1/6)*$menu-icon-width);
+$menu-icon-height: floor((1/6) * $menu-icon-width);
 
 .menu-iconn {
   display: inline-block;
   position: relative;
   // default padding, if statment will be here
   //padding: (4/5)*$menu-icon-width + px (3/5)*$menu-icon-width + px;
-  padding:
-    (4/5)*$menu-icon-width + px
-    (3/5)*$menu-icon-width + px
-    (4/5)*$menu-icon-width + px
-    (16/5)*$menu-icon-width + px;
-  text-indent: -(13/5)*$menu-icon-width + px;
-  font-size: (4/5)*$menu-icon-size + px;
+  padding: (4/5) * $menu-icon-width + px (3/5) * $menu-icon-width + px (4/5) *
+    $menu-icon-width + px (16/5) * $menu-icon-width + px;
+  text-indent: -(13/5) * $menu-icon-width + px;
+  font-size: (4/5) * $menu-icon-size + px;
   line-height: $menu-icon-height + px;
   color: $menu-icon-color;
-  
+
   border: 1px solid rgba($menu-icon-color, 0.3);
   border-radius: 3px;
   cursor: pointer;
   user-select: none;
-  
+
   i {
     position: relative;
     display: block;
@@ -165,8 +253,9 @@ $menu-icon-height: floor((1/6)*$menu-icon-width);
     font-style: normal;
     transition: background $menu-icon-speed;
 
-    &:after, &:before {
-      content: '';
+    &:after,
+    &:before {
+      content: "";
       display: block;
       position: absolute;
       z-index: 0;
@@ -174,14 +263,15 @@ $menu-icon-height: floor((1/6)*$menu-icon-width);
       width: $menu-icon-width + px;
       background: $menu-icon-color;
       border-radius: inherit;
-      transition: top $menu-icon-speed $menu-icon-speed*2 ease, transform $menu-icon-speed ease;
+      transition: top $menu-icon-speed $menu-icon-speed * 2 ease,
+        transform $menu-icon-speed ease;
     }
-    
+
     &:before {
-      top: -($menu-icon-height*2) + px;
+      top: -($menu-icon-height * 2) + px;
     }
     &:after {
-      top: ($menu-icon-height*2) + px;
+      top: ($menu-icon-height * 2) + px;
     }
   }
 }
@@ -189,15 +279,15 @@ $menu-icon-height: floor((1/6)*$menu-icon-width);
 .is-active {
   i {
     background: transparent;
-    &:before, &:after{
-      top:0;
-      transition: top $menu-icon-speed ease, transform $menu-icon-speed $menu-icon-speed*2 ease;
-      transform: rotate(45deg) translate(0);    
+    &:before,
+    &:after {
+      top: 0;
+      transition: top $menu-icon-speed ease,
+        transform $menu-icon-speed $menu-icon-speed * 2 ease;
+      transform: rotate(45deg) translate(0);
     }
-    &:after{
+    &:after {
       transform: rotate(-45deg);
     }
   }
 }
-
-

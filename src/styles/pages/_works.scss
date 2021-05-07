@@ -85,7 +85,7 @@
   
         svg{
           width: 100%;
-      font-size: 50px;
+      font-size: 35px;
       color: $blue;
         }
       }
@@ -141,15 +141,21 @@
     .detailImage{
       width: 100%;
       height: 400px;
+      display: block;
+      object-fit: cover;
       @include mobileScreen{
         height: 250px;
       }
     }
   }
   .col-lg-2{
-    .detailImage{
+    section{
+      border: 1px solid darken($color:$lightHover, $amount: 20);
+      background: $white;
+      padding: 10px;
+      .detailImage{
       width: 100%;
-      height: 150px;
+    }
     }
   }
 }

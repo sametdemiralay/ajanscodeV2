@@ -10,7 +10,23 @@ import OurReferences from "./components/OurReferences";
 import Oblique from "./components/Oblique";
 import {Link} from 'react-router-dom'
 
+import { Slide, Zoom } from 'react-slideshow-image';
+import 'react-slideshow-image/dist/styles.css'
+
 const Home = () => {
+  const slideImages = [
+    'images/ban-1.jpg',
+    'images/ban-2.jpg',
+    'images/ban-3.jpg',
+    'images/ban-4.jpg'
+  ];
+  const zoomOutProperties = {
+    indicators: true,
+    scale: 0.4
+  }
+
+
+
   const [widthh, setWidthh]   = useState(window.innerWidth);
 
   // get window width
@@ -24,14 +40,14 @@ useEffect(() => {
 
   return (
     <>
-      {/* section-1 */}
-      <div className="container-fluid secOne">
-        <div className="row">
-        <img src={widthh > 992 ? BannerPhoto : MobileBanPht} alt="medya ajansı" />
-            <div className="secOne__title">
-              <h1>AJANSCODE</h1>
-            </div>
-        </div>
+      <div className="slide-container">
+        <Zoom {...zoomOutProperties}>
+        {slideImages.map((each, index) => (
+          <div key={index} style={{width: "100%"}}>
+            <img style={{ objectFit: "cover", width: "100%" }} src={each} />
+          </div>
+        ))}
+      </Zoom>
       </div>
 
       {/* section-2 */}

@@ -1,13 +1,12 @@
 import React, { useState, useContext } from "react";
 import * as RiIcons from "react-icons/ri";
-import {Link} from 'react-router-dom'
+import { Link } from "react-router-dom";
 
 const SubMenu = ({ item, showSideBar }) => {
-
   const [subnav, setSubnav] = useState(false);
   const showSubnav = () => {
-    setSubnav(!subnav)
-    subnav && showSideBar()
+    setSubnav(!subnav);
+    subnav && showSideBar();
   };
 
   const clickListenerr = () => {
@@ -15,17 +14,16 @@ const SubMenu = ({ item, showSideBar }) => {
       top: 0,
       behavior: "smooth",
     });
-    item.subNavv ? (
-      showSubnav()
-    ):(
-      showSideBar()
-    )
-  }
-
+    item.subNavv ? showSubnav() : showSideBar();
+  };
 
   return (
     <>
-      <Link  to={item.subNavv ? "#" : item.path} className="sidebarOpen__item" onClick={clickListenerr}>
+      <Link
+        to={item.subNavv ? "#" : item.path}
+        className="sidebarOpen__item"
+        onClick={clickListenerr}
+      >
         <div>
           <span>{item.title}</span>
         </div>
@@ -34,7 +32,12 @@ const SubMenu = ({ item, showSideBar }) => {
       {subnav &&
         item.subNavv.map((itemm, indexx) => {
           return (
-            <Link className="sidebarOpen__subnav" to={itemm.path} onClick={clickListenerr} key={indexx}>
+            <Link
+              className="sidebarOpen__subnav"
+              to={itemm.path}
+              onClick={clickListenerr}
+              key={indexx}
+            >
               {itemm.icon}
               <span>{itemm.title}</span>
             </Link>

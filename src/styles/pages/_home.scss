@@ -6,6 +6,24 @@ $line-height: $clip-height - 5px;
 
 
 
+.slide-container{
+  padding-top: 60px;
+  .each-slide{
+    height: 50vh;
+    
+    .bannerImagee{
+    height: 100vh;
+
+    @include mobileScreen{
+      height: 19vh;
+      margin-top: 90px;
+      background-position: center;
+      background-size: contain;
+    }
+  }
+  }
+}
+
 .title {
   font-size: 30px;
   font-weight: 900;
@@ -17,43 +35,6 @@ $line-height: $clip-height - 5px;
     height: 2px;
     display: block;
     background: $blue;
-  }
-}
-
-.secOne {
-  padding-top: 90px;
-  img {
-    width: 100%;
-    height: 90vh;
-    @include mobileScreen{
-      height: 400px;
-  }
-}
-
-  &__title {
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, 0);
-
-    h1 {
-      font-family: "Cormorant Garamond", serif;
-      font-weight: 300;
-      font-size: 140px;
-      color: #fff;
-      animation: headerTitle 5s infinite;
-    }
-
-    @include tabletScreen{
-      h1{
-        font-size: 100px;
-      }
-    }
-    @include mobileScreen{
-      h1{
-        font-size: 50px;
-      }
-    }
   }
 }
 

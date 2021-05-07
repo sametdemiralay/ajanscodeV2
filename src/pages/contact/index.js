@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import GoogleMapReact from "google-map-react";
 import * as FaIcons from "react-icons/fa";
@@ -11,21 +11,43 @@ const HaritaYazi = ({ text }) => (
 );
 
 const index = () => {
+  const [name, setName] = useState("");
+  const [maill, setMaill] = useState("");
+  const [message, setMessage] = useState("");
+  const [isLoading, setIsLoading] = useState(false);
+  const [isNone, setIsNone] = useState(false);
   const konum = { lat: 40.982382, lng: 28.87283 };
 
   function sendEmail(e) {
     e.preventDefault();
+    setIsLoading(true);
 
-    // emailjs
-    //   .sendForm("service_3jxmopd", "template_1ofrctc", e.target, "user_V3TRsZpKPhPCuKqlq6smv")
-    //   .then(
-    //     (result) => {
-    //       console.log(result.text);
-    //     },
-    //     (error) => {
-    //       console.log(error.text);
-    //     }
-    //   );
+    emailjs
+      .sendForm(
+        "service_3jxmopd",
+        "template_1ofrctc",
+        e.target,
+        "user_V3TRsZpKPhPCuKqlq6smv"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          if (result.text === "OK") {
+            setName("");
+            setMaill("");
+            setMessage("");
+            setIsLoading(false);
+            setIsNone(true);
+          }
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+
+    setTimeout(() => {
+      setIsNone(false);
+    }, 5000);
   }
 
   return (
@@ -40,6 +62,8 @@ const index = () => {
                     type="text"
                     placeholder="Ad Soyad"
                     name="isim_isim"
+                    value={name}
+                    onChange={(e) => setName(e.target.value)}
                     required
                   />
                 </div>
@@ -48,14 +72,26 @@ const index = () => {
                     type="email"
                     placeholder="Mail"
                     name="mail_mail"
+                    value={maill}
+                    onChange={(e) => setMaill(e.target.value)}
                     required
                   />
                 </div>
                 <div className="col-lg-12">
-                  <textarea name="mesaj_mesaj" placeholder="Mesaj" required />
+                  <textarea
+                    name="mesaj_mesaj"
+                    value={message}
+                    onChange={(e) => setMessage(e.target.value)}
+                    placeholder="Mesaj"
+                    required
+                  />
                 </div>
-                <div className="col-lg-12">
+                <div className="col-lg-12 mailMessage">
                   <input type="submit" value="Gönder" />
+                  {isLoading && <p className="onLoad">Gönderiliyor...</p>}
+                  <p className={isNone ? "onSend" : "onSend dNone"}>
+                    Mesajınız Gönderildi.
+                  </p>
                 </div>
               </div>
             </form>
@@ -124,17 +160,17 @@ const index = () => {
         </div>
 
         <div className="row mapArea">
-        <div className="mapArea--divv">
-          <GoogleMapReact
-            bootstrapURLKeys={{
-              key: "AIzaSyBcmOIsGr3lc6XXtde_NE59V7CIc_0VRrw",
-            }}
-            defaultCenter={konum}
-            defaultZoom={18}
-          >
-            <HaritaYazi lat={40.9823735} lng={28.8728543} text="AJANSCODE!" />
-          </GoogleMapReact>
-        </div>
+          <div className="mapArea--divv">
+            <GoogleMapReact
+              bootstrapURLKeys={{
+                key: "AIzaSyBcmOIsGr3lc6XXtde_NE59V7CIc_0VRrw",
+              }}
+              defaultCenter={konum}
+              defaultZoom={18}
+            >
+              <HaritaYazi lat={40.9823735} lng={28.8728543} text="AJANSCODE!" />
+            </GoogleMapReact>
+          </div>
         </div>
       </div>
     </div>

@@ -73,22 +73,3 @@ const Workss = ({ item }) => {
 };
 
 export default Workss;
-
-// if (item.clickType === "photo") {
-//   return (
-//     <div className={item.size}>
-//       <img
-//         src={`/images/islerimiz/${item.image}.webp`}
-//         onClick={() => setIsOpenImage(!isOpenImage)}
-//         alt="-"
-//       />
-//       <p>{item.title}</p>
-//       {isOpenImage && (
-//         <Lightbox
-//           mainSrc={`/images/islerimiz/${item.image}.webp`}
-//           onCloseRequest={() => setIsOpenImage(!isOpenImage)}
-//         />
-//       )}
-//     </div>
-//   );
-// }
