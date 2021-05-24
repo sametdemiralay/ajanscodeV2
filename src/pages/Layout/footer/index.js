@@ -1,5 +1,5 @@
 import React from "react";
-import Logoo from "../../../images/logo-blue.png";
+import Logoo from "../../../images/logo.png";
 import { Link } from "react-router-dom";
 
 import { SocialLinks, Baglantilar, Islerr, Contactt } from "./FooterData";

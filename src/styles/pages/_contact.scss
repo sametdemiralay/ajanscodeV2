@@ -121,6 +121,16 @@
     &--divv{
       height: 50vh;
       width: 100%;
+
+      @include smallScreen{
+        height: 75vh;
+      }
+      @include mobileScreen{
+        height: 30vh;
+        iframe{
+          height: 200px;
+        }
+      }
     }
   }
 }

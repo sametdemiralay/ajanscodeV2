@@ -15,10 +15,10 @@ import 'react-slideshow-image/dist/styles.css'
 
 const Home = () => {
   const slideImages = [
-    'images/ban-1.jpg',
-    'images/ban-2.jpg',
-    'images/ban-3.jpg',
-    'images/ban-4.jpg'
+    'images/ban-1.webp',
+    'images/ban-2.webp',
+    'images/ban-3.webp',
+    'images/ban-4.webp'
   ];
   const zoomOutProperties = {
     indicators: true,

@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import SubMenu from "./SubMenu";
 import Logoo from "../../../images/logo.png";
 import * as FaIcons from "react-icons/fa";
 import NavbarData from "./NavbarData.json";

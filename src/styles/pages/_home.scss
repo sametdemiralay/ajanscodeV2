@@ -88,6 +88,11 @@ $line-height: $clip-height - 5px;
     letter-spacing: -4px;
     transform: translate3d(0, 0, 0);
 
+    @include smallScreen{
+      padding: 0px;
+      font-size: 40px;
+    }
+
     &--line {
       height: $clip-height;
       overflow: hidden;
@@ -350,6 +355,10 @@ $angle-per-char: $angle-span / $num-letters;
   img{
     width: 90%;
     margin-bottom: 10px;
+
+    @include smallScreen{
+      width: 50%;
+    }
   }
 
   @include mobileScreen{

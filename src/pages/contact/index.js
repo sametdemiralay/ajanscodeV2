@@ -1,14 +1,7 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
-import GoogleMapReact from "google-map-react";
 import * as FaIcons from "react-icons/fa";
-
-const HaritaYazi = ({ text }) => (
-  <div style={{ color: "#00468F", fontSize: "20px" }}>
-    <FaIcons.FaMapMarker />
-    {text}
-  </div>
-);
+import Iframe from "react-iframe";
 
 const index = () => {
   const [name, setName] = useState("");
@@ -16,7 +9,6 @@ const index = () => {
   const [message, setMessage] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [isNone, setIsNone] = useState(false);
-  const konum = { lat: 40.982382, lng: 28.87283 };
 
   function sendEmail(e) {
     e.preventDefault();
@@ -161,15 +153,13 @@ const index = () => {
 
         <div className="row mapArea">
           <div className="mapArea--divv">
-            <GoogleMapReact
-              bootstrapURLKeys={{
-                key: "AIzaSyBcmOIsGr3lc6XXtde_NE59V7CIc_0VRrw",
-              }}
-              defaultCenter={konum}
-              defaultZoom={18}
-            >
-              <HaritaYazi lat={40.9823735} lng={28.8728543} text="AJANSCODE!" />
-            </GoogleMapReact>
+            <Iframe
+              url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3011.9607916937143!2d28.870912715413308!3d40.98233937930334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cabca66befe88b%3A0x39a851f782fa1914!2sAJANSCODE!5e0!3m2!1str!2str!4v1621598991581!5m2!1str!2str"
+              width="100%"
+              height="450px"
+              display="initial"
+              position="relative"
+            />
           </div>
         </div>
       </div>

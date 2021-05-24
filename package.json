@@ -1,6 +1,6 @@
 {
   "name": "ajanscode",
-  "version": "1.0.0",
+  "version": "2.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -16,6 +16,7 @@
     "@babel/preset-env": "^7.12.16",
     "@babel/preset-react": "^7.12.13",
     "babel-loader": "^8.2.2",
+    "babel-minify-webpack-plugin": "^0.3.1",
     "css-loader": "^5.0.2",
     "file-loader": "^6.2.0",
     "node-sass": "^5.0.0",
@@ -32,6 +33,7 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-icons": "^4.2.0",
+    "react-iframe": "^1.8.0",
     "react-image-lightbox": "^5.1.1",
     "react-image-video-lightbox": "^2.0.1",
     "react-router-dom": "^5.2.0",
